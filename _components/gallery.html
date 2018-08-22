@@ -1,0 +1,20 @@
+---
+title: gallery
+---
+
+<section class=" w-100 cf">
+
+  {% for card in site.data.gallery %}
+
+
+      <div class="bg-red pa3 w-50 fl shadow-2">
+        <h1 class="mt3 f5 hover-red"> {{ card.title }} </h1>
+        <h2>{{ card.title }}</h2>
+        <p class="mv0 f6 gray">{{ card.subtitle }}</p>
+        <div>{{ site.components | where:"title" : "card"  }}</div>
+      </div>
+
+
+
+  {% endfor %}
+</section>

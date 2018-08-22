@@ -1,0 +1,10 @@
+- fontScale: f-xs
+  text: Donec sed odio dui.
+- fontScale: f-s
+  text: Alle Donec sed odio dui.
+- fontScale: f-md
+  text: Donec sed odio dui.
+- fontScale: f-lg
+  text: Alle Donec sed odio dui.
+- fontScale: f-xxl
+  text: Donec sed odio dui.

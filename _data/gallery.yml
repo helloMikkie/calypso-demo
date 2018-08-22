@@ -1,0 +1,15 @@
+- fontScale: f-xs
+  title: Hello World
+  subtitle: Donec sed odio dui.
+- fontScale: f-s
+  title: my World
+  subtitle: Alle Donec sed odio dui.
+- fontScale: f-md
+  title: Hello World
+  subtitle: Donec sed odio dui.
+- fontScale: f-lg
+  title: my World
+  subtitle: Alle Donec sed odio dui.
+- fontScale: f-xxl
+  title: Hello World
+  subtitle: Donec sed odio dui.
