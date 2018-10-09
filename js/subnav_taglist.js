@@ -1,5 +1,5 @@
 const taglist = document.querySelectorAll('.subnavigation ul li  a')
-const tagSections = document.querySelectorAll('section')
+const tagSections = document.querySelectorAll('section, .wrapper')
 
 document.addEventListener('scroll', function(){
 
