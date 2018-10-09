@@ -1,10 +1,10 @@
 ---
-layout: page_chapter1
-title: Klassenscan
-ziel-nr: 3
-color: "#A0B354"
+layout: page_chapter5
+title: Selbstevaluation
+ziel-nr: 5
+color: "#FC754B"
 text-color: ""
-ziel-title: kennenlernen
+ziel-title: reflektieren
 intro: "Beim Planungstreffen begegnen sich Tanzvermittler*in und Lehrer*in zum ersten Mal. Dieser <span class='link ch-1'>Leitfaden</span> gibt dir Anregungen für die Gesprächsführung und fasst die wesentlichen Themen zusammen.
 <span>Denn eure gute Zusammenarbeit trägt wesentlich zum Gelingen des Projekts bei.</span> Dabei geht es sowohl darum, dass ihr euch gegenseitig kennenlernt und euch über eure Erwartungen austauscht,
 als auch um organisatorische Aspekte. Meist moderieren die Tanzvermittler*innen dieses Gespräch.<br /><br />
@@ -69,7 +69,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
 <section class="mv5" id="scrollTo-zwei">
     <article class="sectionTitle odd">
-      <h1 class="mv0 pt3 euclid-m f-xl tracked">Lernverhalten</h1>
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Fragen zu Kooperation</h1>
     </article>
     <article class="sectionBack pa3">
         <div class="description ph3 lh-copy ls-small euclid-r">
@@ -80,7 +80,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
               Was genau interessiert dich daran? Warum?</p>
         </div>
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "lernverhalten"  }}
+            {{ site.fragen | where:"thema" , "kooperation"  }}
           </div>
     </article>
   </section>
@@ -88,11 +88,11 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class=" mv5">
       <article class="sectionTitle">
-        <h1 class="mv0 pt2 euclid-m f-xl tracked">Lernverhalten</h1>
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Fragen zu sozialem Verhalten</h1>
       </article>
       <article class="w-100 pa3">
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "lernverhalten"  }}
+            {{ site.fragen | where:"thema" , "verhalten"  }}
           </div>
       </article>
     </section>
@@ -101,71 +101,42 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
         <article class="sectionTitle odd">
-          <h1 class="mv0 pt2  euclid-m f-xl tracked">Sozialverhalten</h1>
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Fragen zu Motivation und Spass</h1>
         </article>
 
         <article class="sectionBack pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "sozialverhalten"  }}
+                {{ site.fragen | where:"thema" , "spass"  }}
               </div>
         </article>
       </section>
 
       <section class=" mv5" >
           <article class="sectionTitle">
-            <h1 class="mv0 pt2  euclid-m f-xl tracked">Motorik</h1>
+            <h1 class="mv0 pt2  euclid-m f-xl tracked">Fragen zum Inhalt des Tanzunterrichts</h1>
           </article>
           <article class="w-100 pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "motorik"  }}
+                {{ site.fragen | where:"thema" , "tanzunterricht"  }}
               </div>
           </article>
         </section>
 
-        <section class=" mv5" >
-            <article class="sectionTitle odd  ">
-              <h1 class="mv0 pt2 euclid-m f-xl tracked">Energie/Motivation</h1>
-            </article>
-
-            <article class="sectionBack pa3">
-                  <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "energie"  }}
-                  </div>
-            </article>
-          </section>
-
-          <!-- Diese Section ist mit Avatar-Tipp -->
-
-          <section class=" mv5" data-tipp="{{ page.tipp-zwei }}">
-              <article class="sectionTitle">
-                <h1 class="mv0 pt2 euclid-m f-xl tracked">Wesen/Inspiration</h1>
-              </article>
-
-                <div class="description ph3 lh-copy ls-small euclid-r">
-                  <p>	Transparente Kommunikation und gegenseitiges Wohlwollen
-                    sind wichtige Gelingensfaktoren für Kooperation</p>
-                  </div>
-              <article class="w-100 pa3">
-                  <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "wesen"  }}
-                  </div>
-              </article>
-            </section>
-
-              </section>
 
 <!-- neue Frage -->
             <section class="mv5" id="scrollTo-acht">
                 <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'planungstreffen-modal')">neue Frage hinzufügen</button>
             </section>
 
+
 <!-- Drucken -->
 
           <section class=" mv5" id="scrollTo-neun">
             <div class="wrapper">
-              {{ site.drucken | where:"thema" , "klassenscan"  }}
+              {{ site.drucken | where:"thema" , "reflexionstreffen"  }}
             </div>
           </section>
+
 <!-- scrollTop Button -->
             <div class="scrolltoTop" style="background-color:{{page.color}};" >
                   <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
@@ -173,7 +144,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 <!-- ************** -->
 
     <!-- Modal "Frage erstellen" -->
-    {{ site.modals | where:"thema" , "chapter_3" }}
+    {{ site.modals | where:"thema" , "chapter_5" }}
 
 
     <!-- Avatar-tipp -->

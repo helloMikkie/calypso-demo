@@ -1,17 +1,15 @@
 ---
 layout: page_chapter7
 title: Abschlusstreffen
-ziel-nr: 1
+ziel-nr: 7
 color: "#8B71D6"
+text-color: ""
 ziel-title: abschließen
-subnav:
-- Prozessverlauf
-- Fazit
-- Perspektiven
-- Eigene Fragen
-- Drucken
-intro: "Das Abschlusstreffen ist das dritte Treffen in der Trilogie der Kooperationsbegleitung. Der Gesprächsleitfaden unterstützt Lehrer*in und Tanzvermittler*in sich gegenseitig zuzuhören und ein Fazit aus dem gesamten Prozessverlauf zu ziehen."
-hero: images/hero/TanzZeit_Planungstreffen_Ansicht.png
+intro: "Beim Planungstreffen begegnen sich Tanzvermittler*in und Lehrer*in zum ersten Mal. Dieser <span class='link ch-1'>Leitfaden</span> gibt dir Anregungen für die Gesprächsführung und fasst die wesentlichen Themen zusammen.
+<span>Denn eure gute Zusammenarbeit trägt wesentlich zum Gelingen des Projekts bei.</span> Dabei geht es sowohl darum, dass ihr euch gegenseitig kennenlernt und euch über eure Erwartungen austauscht,
+als auch um organisatorische Aspekte. Meist moderieren die Tanzvermittler*innen dieses Gespräch.<br /><br />
+Die besprochenen Inhalte des Planungstreffens dienen später als Grundlage für das <span class='link ch-1'>Reflexionstreffen</span> in der Mitte und das <span class='link ch-1'>Abschlusstreffen</span> am Ende des Projekts."
+hero: images/hero/planungstreffen/hero_animation.svg
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 ---
@@ -37,53 +35,63 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
 <!-- subNav footer -->
 
-<article class="subnavigation">
-  <ul>
+<article class="subnavigation short">
+    <ul class=" ">
+      <li><a href="#scrollTo-eins" class="subnavTab pb3 color-1 no-underline f-s">Intro</a></li>
+      <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-1 no-underline f-s">Starten</a></li>
+    </ul>
 
-    {% for link in page.subnav %}
-      <li><a href="#" class="white no-underline f-base">{{ link }}</a></li>
-    {% endfor %}
-
-  </ul>
+    <ul class="rightSubNav">
+      <li><a href="#scrollTo-acht" class="subnavTab pb3 color-1 no-underline f-s">neue Frage</a></li>
+      <li><a href="#scrollTo-neun" class="subnavTab pb3 color-1 no-underline f-s">Drucken</a></li>
+    </ul>
 </article>
 
-<!-- hero Material -->
+<!-- hero-Material -->
 
 <div class="hero-material" >
     <div class="hero-image" style="background-image: url({{page.hero}});"></div>
 
       <div class="hero-material-title">
-        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
       </div>
 </div>
 
-<!-- Introtext -->
 
-<article class="intro pa2 mw8 center mv6 f-lg lh-md euclid-m">
-{{ page.intro }}
-</article>
+<!-- Introtext -->
+  <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+    </article>
+  </div>
 
 <!-- Content -->
 
-<section class="mv5 ">
-    <article class=" pa3 mw7 center bg-white ">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Prozessverlauf</h1>
+<section class="mv5" id="scrollTo-zwei">
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Prozessverlauf</h1>
     </article>
-    <article class="bg-white w-100 pa3">
-
-          <div class="mw8  mt3 pb5 center euclid-r ">
+    <article class="sectionBack pa3">
+        <div class="description ph3 lh-copy ls-small euclid-r">
+          <p>	Wähle zunächst eine der drei Hauptkategorien
+              Entscheide dich für eine der vier Unterkategorien
+              Wähle einen Begriff
+              Formuliere Fragen zu dem ausgewählten Begriff.
+              Was genau interessiert dich daran? Warum?</p>
+        </div>
+          <div class="wrapper">
             {{ site.fragen | where:"thema" , "prozess"  }}
           </div>
     </article>
   </section>
 
 
-  <section class="mv5 ">
-      <article class=" pa3 mw7 center">
-        <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Fazit</h1>
+  <section class=" mv5">
+      <article class="sectionTitle">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Fazit</h1>
       </article>
       <article class="w-100 pa3">
-          <div class="mw8 pb5 center euclid-r">
+          <div class="wrapper">
             {{ site.fragen | where:"thema" , "fazit"  }}
           </div>
       </article>
@@ -91,41 +99,59 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
 <!-- Diese Section ist mit Avatar-Tipp -->
 
-    <section class="mv5 " data-tipp="{{ page.tipp-eins }}">
-        <article class=" pa2 mw6 center bg-white ">
-          <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Perspektiven</h1>
+    <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
+        <article class="sectionTitle odd">
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Perspektiven</h1>
         </article>
-        <article class="bg-white w-100 pa3">
 
-              <div class="mw8 pb5 center euclid-r">
+        <article class="sectionBack pa3">
+              <div class="wrapper">
                 {{ site.fragen | where:"thema" , "perspektiven"  }}
               </div>
         </article>
       </section>
 
+<!-- neue Frage -->
+      <section class="mv5" id="scrollTo-acht">
+          <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'planungstreffen-modal')">neue Frage hinzufügen</button>
+      </section>
 
 
+<!-- Drucken -->
 
+          <section class=" mv5" id="scrollTo-neun">
+            <div class="wrapper">
+              {{ site.drucken | where:"thema" , "abschlusstreffen"  }}
+            </div>
+          </section>
 
-
-
-    <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'abschlusstreffen-modal')">neue Frage hinzufügen</button>
-
-
-
-    {{ site.components | where:"color" , "#58B0E2"  }}
+<!-- scrollTop Button -->
+            <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                  <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+              </div>
+<!-- ************** -->
 
     <!-- Modal "Frage erstellen" -->
-    {{ site.modals | where:"thema" , "Planungstreffen" }}
+    {{ site.modals | where:"thema" , "chapter_7" }}
 
 
     <!-- Avatar-tipp -->
+
     <div class="avatar" style="background-color: {{page.color}}">
-      <div class="avatar-tipp" style=""></div>
+      <div class="face">
+      <!-- <img src="images/icons/avatar_2.png" alt="avatar"> -->
+        </div>
+      <div class="avatar-tipp" style="background-color: {{ page.color}}">
+
+      </div>
     </div>
 
 
     <!--  javascript -->
+
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+
     <script src="js/modal.js"></script>
     <script src="js/fragenOpen.js"></script>
     <script src="js/avatar.js"></script>

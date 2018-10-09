@@ -43,36 +43,6 @@
 - sub: reflexion
   text: Was läuft gut? Was kann wie verbessert werden?
 
-- sub: prozess
-  text: Wie beurteilst Du den Prozess?
-- sub: prozess
-  text: Was war gewöhnungsbedürftig?
-- sub: prozess
-  text: Was hat Dich bewegt/erstaunt?
-- sub: prozess
-  text: Welche Erkenntnisse nimmst Du aus dem Prozess mit?
-
-- sub: fazit
-  text: Welche Ziele haben sich eingelöst?
-- sub: fazit
-  text: Wie haben sich die Schüler*innen entwickelt?
-- sub: fazit
-  text: Was nehmen die Kinder aus dem Prozess mit?
-- sub: fazit
-  text: Wie habt Ihr die Präsentation erlebt? Hatte das Stück inhaltlich für Euch Relevanz?
-- sub: fazit
-  text: Habt Ihr den Evaluationsbogen ausgefüllt?
-
-- sub: perspektiven
-  text: Gibt es das Bedürfnis das Tanzprojekt fortzuführen?
-- sub: perspektiven
-  text: Wenn ja, wie kann der/die Tanzvermittler*in dabei unterstützen?Wenn nein, warum nicht?
-- sub: perspektiven
-  text: Kann sich der/die Lehrer*in vorstellen gemeinsam mit dem/der Tanzvermittler*in ein gesamtes Projekt inhaltlich zu planen, gestalten und durchzuführen?
-- sub: perspektiven
-  text: Ist der Lehrer*in das Tandemformat und das Hand in Hand Schulen Modell bekannt?
-
-
 # Chapter 1 - Selbstbefragung
 
 - sub: biografisches
@@ -142,20 +112,155 @@
 
   # Chapter 5 - Reflexionstreffen
 
-- sub:
-  text:
+- sub: motivation
+  text: "Welche Hoffnungen haben sich erfüllt, welche Wünsche sind noch offen?"
+- sub: motivation
+  text: "Gab es anfängliche Bedenken und was ist aus ihnen geworden?"
+- sub: motivation
+  text: "Könnt Ihr gemeinsame Ziele für die zweite Hälfte des Projektes formulieren? (z.B. Stärkung des Ausdrucks- und Bewegungswillens der Schüler*innen, Förderung des Gemeinschaftssinns)"
 
-  # Chapter 5 - Selbstevaluation
+- sub: organisation
+  text: "Habt Ihr alle Unterrichtstermine aktualisiert?"
+- sub: organisation
+  text: "Habt Ihr dabei die Termine der Präsentationen, Extra- und Generalproben berücksichtigt?"
+- sub: organisation
+  text: "Sind alle für die Präsentation notwendigen Materialien, wie z.B. Kostüme usw. organisiert? Wie möchtet ihr vorgehen?"
 
-- sub:
-  text:
+- sub: inhalte
+  text: "Kannst du als Tanzvermittler*in deine bisherige Vorgehensweise erläutern?"
+- sub: inhalte
+  text: "Welches sind Eure bisherigen Unterrichtsinhalte? Tauscht Euch aus. Habt Ihr dazu die Fokusfelder berücksichtigt?"
+- sub: inhalte
+  text: "Wie können diese Inhalte im weiteren Projektverlauf bis zur Präsentation gestaltet werden?"
+- sub: inhalte
+  text: "Habt ihr Euch die Qualitätskriterien für Choreografie als Hilfestellung herangezogen, um das Wesentliche des Materials herauszufiltern?"
 
-  # Chapter 7 - Abschlusstreffen
+- sub: vermittlung
+  text: "Welche Ansprache, Rituale o.ä. brauchen die Schüler*innen, um eine Präsentation auf die Beine zu stellen?"
+- sub: vermittlung
+  text: "Wie bringt man ihnen bei, dass die Präsentation mit Üben, Wiederholen und Arbeiten verbunden ist?"
+- sub: vermittlung
+  text: "Wie kannst du als Lehrer*in die Tanzvermittler*innen bei den Vorbereitungen unterstützen?"
+- sub: vermittlung
+  text: "Kannst du als Tanzvermittler*in etwas an ihrem Vermittlungsansatz verbessern?"
 
-  - sub:
-    text:
+- sub: kooperation
+  text: "Wie hat sich eure Zusammenarbeit entwickelt und was könnt ihr Euch für die Dauer des Projekts noch vorstellen?"
+- sub: kooperation
+  text: "Willst du als Lehrer*in selbst eine Erfahrung machen und mittanzen?"
+- sub: kooperation
+  text: "Willst du als Lehrer*in selbst Übungen und Rituale anleiten?"
 
-  # Chapter 7 - Projekt-Evaluation
+- sub: reflexion
+  text: "Seid Ihr beide zufrieden mit Euren Ritualen, die ihr anfangs zur gemeinsamen Reflexion festgelegt habt?"
+- sub: reflexion
+  text: "Seid Ihr beide zufrieden damit, wie ihr die Kommunikation in Eurem Prozess gestaltet? Möchtet ihr etwas ändern?"
+- sub: reflexion
+  text: "Habt Ihr einen Termin für euer Abschlusstreffen am Ende des Projektes festgelegt?"
 
-  - sub:
-    text:
+# Selbstevaluation
+
+- sub: kooperationEvaluation
+  text: "Habe ich heute anderen aufmerksam zugehört?"
+- sub: kooperationEvaluation
+  text: "Fiel es mir heute leicht, mit anderen zusammenarbeiten?"
+- sub: kooperationEvaluation
+  text: "Habe ich Vorschläge meiner Partner*in angenommen?"
+- sub: kooperationEvaluation
+  text: "Wurden meinen Vorschlägen angenommen?"
+
+- sub: verhalten
+  text: "Habe ich heute jemanden geschlagen, getreten, angerempelt, beschimpft usw.?"
+- sub: fverhalten
+  text: "Habe ich mich heute an die Regeln unserer Klasse gehalten?"
+- sub: verhalten
+  text: Bin ich heute zufrieden mit meinem Verhalten?
+
+- sub: spass
+  text: "Hatte ich heute Spaß hatte beim Tanzen?"
+- sub: spass
+  text: "Freue ich mich auf den nächsten Tanzunterricht?"
+- sub: spass
+  text: "Was macht mir im Tanzunterricht am meisten Spaß?"
+
+- sub: tanzunterricht
+  text: "Fiel es mir heute leicht, Bewegungen nachzumachen?"
+- sub: tanzunterricht
+  text: "Fiel es mir heute leicht, Bewegungen zu erfinden?"
+- sub: tanzunterricht
+  text: "Konnte ich heute meine Bewegungsideen in die Gruppe einbringen?"
+- sub: tanzunterricht
+  text: "Was hast Du heute Neues erfahren/gelernt?"
+- sub: ftanzunterricht
+  text: "Fiel es mir heute leicht, zu improvisieren?"
+- sub: tanzunterricht
+  text: "Wenn nicht, warum?"
+- sub: tanzunterricht
+  text: "Welche Ideen habe ich zu unserem Tanzstück?"
+
+- sub: sonstiges
+  text: "Was wünsche ich mir im Tanzunterricht?"
+- sub: sonstiges
+  text: "Gibt es etwas, das mich stört?"
+- sub: sonstiges
+  text: "Was gefällt mir im Tanzunterricht?"
+- sub: sonstiges
+  text: "Was ich sonst noch loswerden möchte?"
+
+# Abschlusstreffen
+
+- sub: prozess
+  text: "Wie beurteilst Du den Prozess?"
+- sub: prozess
+  text: "Was war gewöhnungsbedürftig?"
+- sub: prozessverlauf
+  text: "Was hat Dich bewegt/erstaunt?"
+- sub: prozess
+  text: "Welche Erkenntnisse nimmst Du aus dem Prozess mit?"
+
+- sub: fazit
+  text: "Welche Ziele haben sich eingelöst?"
+- sub: fazit
+  text: "Wie haben sich die Schüler*innen entwickelt?"
+- sub: fazit
+  text: "Was nehmen die Kinder aus dem Prozess mit?"
+- sub: fazit
+  text: "Wie habt Ihr die Präsentation erlebt? Hatte das Stück inhaltlich für Euch Relevanz?"
+- sub: fazit
+  text: "Habt Ihr den Evaluationsbogen ausgefüllt?"
+
+- sub: perspektiven
+  text: "Gibt es das Bedürfnis das Tanzprojekt fortzuführen?"
+- sub: perspektiven
+  text: "Wenn ja, wie kann der/die Tanzvermittler*in dabei unterstützen? Wenn nein, warum nicht?"
+- sub: perspektiven
+  text: "Kann sich der/die Lehrer*in vorstellen gemeinsam mit dem/der Tanzvermittler*in ein gesamtes Projekt inhaltlich zu planen, gestalten und durchzuführen?"
+- sub: perspektiven
+  text: "Ist der Lehrer*in das Tandemformat und das Hand in Hand Schulen Modell bekannt?"
+
+# ProjektEvaluation
+
+- sub: meinung
+  text: "Was hat Dir am Tanzprojekt gefallen?"
+- sub: meinung
+  text: "Was hat Dir gefehlt?"
+- sub: meinung
+  text: "Beschreibe das, was Du im Tanzprojekt am Liebsten gemacht hast?"
+- sub: meinung
+  text: "Beschreibe das, was Du am Liebsten machen würdest?"
+
+- sub: miteinander
+  text: "Wie fandst Du das Miteinander?"
+- sub: miteinander
+  text: "Was könnte besser laufen?"
+- sub: miteinander
+  text: "Wie wurden Deine Meinung, Deine Gefühle und Beobachtungen ernst genommen?"
+- sub: miteinander
+  text: "WER könnte WAS anders machen, um das Miteinander zu verbessern?"
+- sub: miteinander
+  text: "Was könntest Du anders machen?"
+
+- sub: ausblick
+  text: "Was würdest Du in einem nächsten Tanzprojekt anders machen wollen?"
+- sub: ausblick
+  text: "Was könnten die anderen Deiner Meinung nach anders machen?"
