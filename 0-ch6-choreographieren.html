@@ -1,0 +1,147 @@
+---
+layout: page_chapter6
+title: choreographieren
+ziel-nr: 6
+color: "#C27AC8"
+intro: "Eine gute und wohlwollende Zusammenarbeit zwischen den Tanzvermittler*innen und den Lehrer*innen in der Schule ist die Basis eines jeden Projekts. Die positive Stimmung überträgt sich auf die Schüler*innen und wirkt sich auf den gesamten Prozess aus. Dieses Miteinander gilt es am Anfang des Projekts aufzubauen. Dafür ist es sinnvoll, sich zunächst über die eigenen Erwartungen und Ziele klarzuwerden. Unser Gesprächsleitfaden hilft dann beim ersten Planungstreffen."
+---
+<!-- Ziel-Nummer header footer -->
+
+  <div class="whiteHeader">
+    <h1 class="hiddenTitle euclid-m f-xl" style="color:{{ page.color }}">{{page.title}}</h1>
+  </div>
+
+  <div class="whiteFooter"></div>
+
+  <div class="page-number euclid-m" style="color: {{ page.color }}">{{ page.ziel-nr }}</div>
+
+<!-- Video Hero  Overlay-->
+
+  <div class="hero-ziel">
+
+      <div class="video-overlay" ></div>
+
+      <div id="video_container">
+        <video autoplay muted loop id="myVideo" class="hero-video">
+          <source src="video/test.mp4" type="video/mp4">
+        </video>
+      </div>
+</div>
+
+
+<!-- content  -->
+
+<!--  title section -->
+
+  <section class="section-wrapper appear" id="eins">
+
+      <div class="section-container">
+        <h1 class="hero-chapterTitle euclid-m mv0" style="color: {{page.color}}">{{ page.title}}</h1>
+      </div>
+
+      <a href="#zwei" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+  </section>
+
+<!-- quote section -->
+
+  <section class="section-wrapper " style="color: {{ page.color }};" id="zwei">
+
+    <div class="section-container appear">
+      <div>
+          <p class="hero-text euclid-m f-xxl mv0" >
+            “Es ist mal etwas anderes mit einem Mädchen zu tanzen…<br>
+            das braucht man auch für das spätere Leben.”
+          </p>
+          <p class="white tc ">Marco, 13 Jahre</p>
+    </div>
+</div>
+
+    <a href="#drei" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+
+  </section>
+
+<!-- Intro section  -->
+
+<section class="section-wrapper white f-xxl euclid-m " id="drei">
+    <div class="section-container">
+          <div class="ph5">
+            <p class="intro-text"> <span class="mr3 lh-title "style="color:{{page.color}}">choreographieren</span>{{ page.intro }}</p>
+            <p class="f-md tc" style="color:{{page.color}}">dazu haben wir folgendes Material entwickelt:</p>
+        </div >
+  </div>
+
+  <a href="#vier" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+</section>
+
+<!-- Materialien -->
+
+<section class="section-wrapper white tc " id="vier">
+
+  <div class="svgContainer">
+    {{ site.svg_animation | where:'title', 'Selbstbefragung'}}
+</div>
+
+
+  <div class="materialCard">
+        <div class="audioButton" data-parallax="0.3"></div>
+
+
+      <p class="ttu euclid-m" style="color: {{ page.color}}">Fragebogen</p>
+      <div class="frame relative">
+
+          <h2 class="mb4 f-xxxl" style="color: {{ page.color }}">Selbstbefragung</h2>
+          <p class="tl lh-copy euclid-m">Die Selbstbefragung dient dazu, die eigenen Erfahrungen, Bedürfnisse und Wünsche für das Tanzprojekt auszuloten. Sie richtet sich vornehmlich an die Tanzvermittler*innen und bildet eine Grundlage für das Planungstreffen.
+
+      </div>
+        <button class="bearbeiten f-md pa3 euclid-m" style="background-color: {{page.color}}">zum Fragebogen</button>
+  </div>
+
+
+
+<a href="#fuenf" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+</section>
+
+<!-- Materialien -->
+<section class="section-wrapper section-bg white tc " id="fuenf">
+
+
+    <div class="svgContainer">
+      {{ site.svg_animation | where:'title', 'Planungstreffen'}}
+  </div>
+
+
+  <div class="materialCard">
+
+    <p class="ttu euclid-m" style="color: {{ page.color}}">Gesprächsleitfaden</p>
+      <div class="frame relative">
+          <h2 class="mb4 f-xxxl" style="color: {{ page.color }}">Planungstreffen</h2>
+          <p class="tl lh-copy euclid-m">Der Gesprächsleitfaden gibt Anregungen für das erste Treffen, bei dem sich Tanzvermittler*innen und Lehrer*innen kennenlernen und mit der Planung beginnen.</p>
+      </div>
+
+
+      <button class="bearbeiten f-md pa3 euclid-m" style="background-color: {{page.color}}"><a href="./1-planungstreffen.html" class="link black pointer">zum Leitfaden</a></button>
+  </div>
+
+
+<a href="#eins" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+
+</section>
+
+<div class="footer" style="background-color: {{ page.color}}">
+    <a href="#">Tanzzeit</a>
+    <a href="#">Kulturprojekte</a>
+    <a href="#">Impressum</a>
+    <a href="#">Datenschutz</a>
+    <a href="#">nach oben</a>
+</div>
+
+
+<script src="js/anime.js"></script>
+<!-- <script src="js/overlay.js"></script> -->
+
+<script src="js/ziel_Animation.js"></script>
+
+<script src="js/ziel_scroller.js"></script>
+
+<script src="js/video.js"></script>
+<script src="js/animation.js"></script>
