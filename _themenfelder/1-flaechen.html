@@ -1,0 +1,23 @@
+---
+title: flip-card
+thema: flaechen
+color: "#f89700"
+---
+{% for item in site.data.thema %}
+{% if item.sub == "flaechen" %}
+<article class="flip-card relative  ">
+  <div class="flip-vorn  bg-white black z-1 absolute top left ba br2  bw1 flex justify-center items-center ttu euclid-m ">
+    <p class="tc">
+
+      {{ item.front}}
+    </p>
+  </div>
+  <div class="flip-hinten  white z--1 absolute top left ba  br2  euclid-r pa2 overflow-y-scroll" style="background-color: {{page.color}}; border-color: {{page-color}}">
+    <p class="mv0 lh-copy euclid-r ls-small">{{ item.back }}</p>
+  </div>
+  {% if item.flip == 1 %}
+    <div class="shadow"></div>
+  {% endif %}
+</article>
+{% endif %}
+{% endfor %}

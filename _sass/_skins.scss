@@ -11,12 +11,23 @@
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 
 /* Text colors */
+
+.color-1 {         color: $color-1; }
+.color-2 {         color: $color-2; }
+.color-3 {         color: $color-3; }
+.color-4 {         color: $color-4; }
+.color-5 {         color: $color-5; }
+.color-6 {         color: $color-6; }
+.color-7 {         color: $color-7; }
+.color-8 {         color: $color-8; }
+.color-gray {      color: $color-gray;}
+
 
 .black-90 {         color: $black-90; }
 .black-80 {         color: $black-80; }

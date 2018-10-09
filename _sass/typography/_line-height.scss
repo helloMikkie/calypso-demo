@@ -20,6 +20,9 @@
   .lh-solid { line-height: 1; }
   .lh-title { line-height: 1.25; }
   .lh-copy  { line-height: 1.5; }
+  .lh-md    { line-height: 1.75; }
+  .lh-lg   { line-height: 2; }
+
 
 @media #{$breakpoint-not-small} {
   .lh-solid-ns { line-height: 1; }
@@ -38,4 +41,3 @@
   .lh-title-l { line-height: 1.25; }
   .lh-copy-l  { line-height: 1.5; }
 }
-

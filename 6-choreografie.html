@@ -1,0 +1,66 @@
+---
+layout: page_chapter6
+title: Choreografie im Kontext Schule
+ziel-nr: 6
+ziel-title: choreografieren
+color: "#C27AC8"
+subnav:
+- 4.–6. Klasse
+- 7.–9.Klasse
+- Oberstufe
+- klassestufenübergreifend
+intro: "Was  heißt  Choreografie  im  Kontext  Schule?  Choreografie  im  Kontext  Schule  birgt  die  Chance,  die  sozialen  Begebenheiten  einer  Schulklasse  künstlerisch  zu  verhandeln.  Gelingt  es  der  Tanzvermittler*in,  in  Zusammenarbeit  mit  der  Lehrer*in  den  eigenen  künstlerischen  Ansatz  mit  den  Bedürfnissen  und  Anforderungen  des  Schulklasse  zusammenzubringen,  so  verschmelzen  Kunst  und  Pädagogik  zu  etwas  Drittem,  was  spezifisch  für  Choreografie  im  Kontext  Schule  ist.<br />Folgende  Kriterien  machen  anschaulich,  wie  das  Zusammenwirken  von  künstlerischer  Perspektive  und  den  Anforderungen  der  Schulklasse  aussehen  kann.  Schaue  Dir  die  Videos  an  und  nutze  die  Fragen,  um  Dein  Verständnis  für  die  Kriterien  zu  vertiefen.  "
+hero: images/hero/TanzZeit_Planungstreffen_Ansicht.png
+---
+
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subnavigation footer -->
+<article class="subnavigation">
+  <ul>
+
+    {% for link in page.subnav %}
+      <li><a href="#" class="white no-underline f-base">{{ link }}</a></li>
+    {% endfor %}
+
+  </ul>
+</article>
+
+<!-- hero -->
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Intro -->
+
+<article class="intro pa2 mw8 center mv6 f3  lh-copy euclid-m">
+{{ page.intro }}
+</article>
+
+<!-- Content  -->

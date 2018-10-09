@@ -1,0 +1,132 @@
+---
+layout: page_chapter7
+title: Abschlusstreffen
+ziel-nr: 1
+color: "#8B71D6"
+ziel-title: abschließen
+subnav:
+- Prozessverlauf
+- Fazit
+- Perspektiven
+- Eigene Fragen
+- Drucken
+intro: "Das Abschlusstreffen ist das dritte Treffen in der Trilogie der Kooperationsbegleitung. Der Gesprächsleitfaden unterstützt Lehrer*in und Tanzvermittler*in sich gegenseitig zuzuhören und ein Fazit aus dem gesamten Prozessverlauf zu ziehen."
+hero: images/hero/TanzZeit_Planungstreffen_Ansicht.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+<article class="subnavigation">
+  <ul>
+
+    {% for link in page.subnav %}
+      <li><a href="#" class="white no-underline f-base">{{ link }}</a></li>
+    {% endfor %}
+
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+
+<article class="intro pa2 mw8 center mv6 f-lg lh-md euclid-m">
+{{ page.intro }}
+</article>
+
+<!-- Content -->
+
+<section class="mv5 ">
+    <article class=" pa3 mw7 center bg-white ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Prozessverlauf</h1>
+    </article>
+    <article class="bg-white w-100 pa3">
+
+          <div class="mw8  mt3 pb5 center euclid-r ">
+            {{ site.fragen | where:"thema" , "prozess"  }}
+          </div>
+    </article>
+  </section>
+
+
+  <section class="mv5 ">
+      <article class=" pa3 mw7 center">
+        <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Fazit</h1>
+      </article>
+      <article class="w-100 pa3">
+          <div class="mw8 pb5 center euclid-r">
+            {{ site.fragen | where:"thema" , "fazit"  }}
+          </div>
+      </article>
+    </section>
+
+<!-- Diese Section ist mit Avatar-Tipp -->
+
+    <section class="mv5 " data-tipp="{{ page.tipp-eins }}">
+        <article class=" pa2 mw6 center bg-white ">
+          <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Perspektiven</h1>
+        </article>
+        <article class="bg-white w-100 pa3">
+
+              <div class="mw8 pb5 center euclid-r">
+                {{ site.fragen | where:"thema" , "perspektiven"  }}
+              </div>
+        </article>
+      </section>
+
+
+
+
+
+
+
+    <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'abschlusstreffen-modal')">neue Frage hinzufügen</button>
+
+
+
+    {{ site.components | where:"color" , "#58B0E2"  }}
+
+    <!-- Modal "Frage erstellen" -->
+    {{ site.modals | where:"thema" , "Planungstreffen" }}
+
+
+    <!-- Avatar-tipp -->
+    <div class="avatar" style="background-color: {{page.color}}">
+      <div class="avatar-tipp" style=""></div>
+    </div>
+
+
+    <!--  javascript -->
+    <script src="js/modal.js"></script>
+    <script src="js/fragenOpen.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/header-scroll.js"></script>

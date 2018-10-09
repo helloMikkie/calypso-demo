@@ -3,7 +3,7 @@
 
 $font-base-size: 1rem;
 
-$font-scale-ratio: 1.333;
+$font-scale-ratio: 1.125;
 
 // minor: 1.067;
 // maior: 1.125;
@@ -14,21 +14,24 @@ $font-scale-ratio: 1.333;
 // perfectFifth: 1.5;
 // goldenRatio: 1.618;
 
-
-
+.f-xxxs  {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
+.f-xxs   {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
 .f-xs{font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio});}
 .f-s{font-size: calc(#{$font-base-size} / #{$font-scale-ratio});}
 .f-base{font-size: $font-base-size;}
-.f-md{font-size: calc(#{$font-base-size} * #{$font-scale-ratio} * #{$font-scale-ratio});}
-.f-ml{font-size: calc(#{$font-base-size} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
-.f-lg{font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} );}
-.f-xl{font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} );}
-.f-xxl {font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
-.f-xxxl {font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
+.f-md{font-size: calc(#{$font-base-size} * #{$font-scale-ratio});}
+.f-ml{font-size: calc(#{$font-base-size} * #{$font-scale-ratio} * #{$font-scale-ratio});}
+.f-lg{font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} );}
+.f-xl{font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+      letter-spacing:0.03em; }
+.f-xxl {font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
+.f-xxxl {font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
 
 
 
 @media #{$breakpoint-not-small}{
+    .f-xxxs-ns {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
+    .f-xxs-ns  {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-xs-ns   {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-s-ns    {font-size: calc(#{$font-base-size} / #{$font-scale-ratio});}
     .f-base-ns {font-size: $font-base-size;}
@@ -41,6 +44,8 @@ $font-scale-ratio: 1.333;
 }
 
 @media #{$breakpoint-medium} {
+    .f-xxxs-m{font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
+    .f-xxs-m {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-xs-m{font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-s-nm{font-size: calc(#{$font-base-size} / #{$font-scale-ratio});}
     .f-base-m{font-size: $font-base-size;}
@@ -53,6 +58,8 @@ $font-scale-ratio: 1.333;
 }
 
 @media #{$breakpoint-large} {
+    .f-xxxs-l {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
+    .f-xxs-l  {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-xs-l   {font-size: calc(#{$font-base-size} / #{$font-scale-ratio} / #{$font-scale-ratio});}
     .f-s-l    {font-size: calc(#{$font-base-size} / #{$font-scale-ratio});}
     .f-base-l {font-size: $font-base-size;}

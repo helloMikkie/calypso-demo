@@ -1,0 +1,183 @@
+- sub: theater
+  front: Sprechtheater
+  back: 0
+- sub: theater
+  front: Musiktheater
+  back: 0
+- sub: theater
+  front: Kleinkunst
+  back: 0
+
+- sub: medienkunst
+  front: Filmkunst
+  back:
+- sub: medienkunst
+  front: Videokunst
+  back:
+- sub: medienkunst
+  front: Klangkunst
+  back:
+- sub: medienkunst
+  front: Digitale Kunst
+  back:
+
+- sub: malerei
+  front: Expressionismus
+  back:
+- sub: malerei
+  front: Pop Art
+  back:
+- sub: malerei
+  front: Action Painting
+  back:
+- sub: malerei
+  front: Fotorealismus
+  back:
+
+- sub: bildhauerei
+  front: Skulptur
+  back:
+- sub: bildhauerei
+  front: Plastik
+  back:
+
+- sub: graphik
+  front: Druck
+  back:
+- sub: graphik
+  front: Mosaik
+  back:
+- sub: graphik
+  front: Sgraffito
+  back:
+
+- sub: fotografie
+  front: Fotojournalismus
+  back:
+- sub: fotografie
+  front: Sportfotographie
+  back:
+- sub: fotografie
+  front: Modefotographie
+  back:
+- sub: fotografie
+  front: Theaterfotographie
+  back:
+- sub: fotografie
+  front: Naturfotographie
+  back:
+- sub: fotografie
+  front: Begriff
+  back:
+
+- sub: architektur
+  front: Konstruktivismus
+  back:
+- sub: architektur
+  front: Dekonstruktivism
+  back:
+- sub: architektur
+  front: Moderne
+  back:
+- sub: architektur
+  front: Strukturalismus
+  back:
+
+- sub: musikGenres
+  front: Blues
+  back:
+- sub: musikGenres
+  front: Folk
+  back:
+- sub: musikGenres
+  front: Lateinamerikanische Musik
+  back:
+- sub: mmusikGenres
+  front: Reggae
+  back:
+- sub: musikGenres
+  front: Traditionelle Musik
+  back:
+- sub: musikGenres
+  front: Country
+  back:
+- sub: musikGenres
+  front: Funk
+  back:
+- sub: musikGenres
+  front: Metall
+  back:
+- sub: musikGenres
+  front: Rock
+  back:
+- sub: musikGenres
+  front: Disco
+  back:
+- sub: mmusikGenres
+  front: Hip Hop
+  back:
+- sub: musikGenres
+  front: "Rock’n’Roll"
+  back:
+- sub: mmusikGenres
+  front: Pop
+  back:
+- sub: musikGenres
+  front: Elektronische Musik
+  back:
+- sub: musikGenres
+  front: Jazz
+  back:
+- sub: musikGenres
+  front: Punk
+  back:
+- sub: musikGenres
+  front: Ska
+  back:
+
+- sub: epochen
+  front: Mittelalter
+  back: "Ballade, Rondeau, Virelai "
+- sub: epochen
+  front: Renaissance
+  back: "Madrigal , Motetten"
+- sub: epochen
+  front: Barock
+  back: "Oper, Fuge, Oratorium, Kantate, Suite (Ouvertueren-, Tanzsuite)" 
+- sub: epochen
+  front: Klassik
+  back: Oper, Sinfonie, Sonate, Solokonzert, Streichquartett 
+- sub: epochen
+  front: Romantik
+  back: "Poetisches kleines Klavierstueck, sinfonische Dichtung, Kunstlied, Musikdrama, Ballett, Operette"
+- sub: epochen
+  front: Moderne, Impressionismus
+  back: "Prelude, Arabesque, Nocturne"
+- sub: epochen
+  front: Neue Musik
+  back: Klassische und experimentelle Formen, atonale Musik
+
+- sub: literatur
+  front: Maechen
+  back:
+- sub: literatur
+  front: Sage
+  back:
+- sub: literatur
+  front: Fabel
+  back:
+- sub: literatur
+  front: Kurzgeschichte
+  back:
+- sub: literatur
+  front: Novelle
+  back:
+- sub: literatur
+  front: Roman
+  back:
+- sub: literatur
+  front: Tragoedie
+  back:
+- sub: literatur
+  front: Komoedie
+  back:
