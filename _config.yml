@@ -62,6 +62,12 @@ collections:
   choreografen:
     style:
       output: true
+  kontext:
+    style:
+      output: true
+  praesentation:
+    style:
+      output: true
 
 
 defaults:

@@ -35,7 +35,7 @@
 .hiddenTitle{
   display: none;
   position: relative;
-  left: 48px;
+  left: 64px;
 }
 
 .hero-text{
@@ -74,10 +74,10 @@
   position: absolute;
   left: 50%;
   bottom: 60px;
-  background-image: url(images/icons/arrow_down.svg);
+  background-image: url(images/icons/arrow_down_black.svg);
   background-repeat: no-repeat;
   background-position: center;
-  // background-size: contain;
+
   z-index: 5;
   cursor: pointer;
 }
@@ -88,12 +88,38 @@
 .footer{
   width: 100%;
   height: 50vh;
-  color: #fff;
+  color: #000;
   display: flex;
   position: relative;
   margin-top: 50vh;
+
+  display:flex;
+  justify-content: space-between;
+  padding: 24px 48px;
 }
 
+.footer .scrollIkon{
+  background-image: url(images/icons/arrow_up.svg);
+}
+.footer .left{
+  flex-basis: 400px;
+}
+.footer span{
+  font-family: euclid-m;
+}
+.footer .right{
+  flex-basis: 200px;
+}
+.footer .logo {
+  width: 180px;
+
+
+}
+.logo img{
+  width: 100%;
+    display: block;
+    margin-bottom: 32px;
+}
 // content
 
 .section-wrapper{
@@ -129,12 +155,17 @@
   width: 100%;
   padding: 48px;
   margin:0 auto;
-  border-image-source: url(images/frames/frame_02.png);
- border-image-repeat: round;
- border-image-slice: 16;
- border-image-width: 12px;
- background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.75);
 }
+.frame-ch-2{
+  border-image-source: url(images/frames/frame_03.png);
+  border-image-repeat: stretch;
+  border-image-slice: 16;
+  border-image-width: 12px;
+
+  border-image-outset:initial;
+}
+
 
 button.bearbeiten{
   border: none;
@@ -201,7 +232,6 @@ video.filter{
 .video-overlay{
   position: absolute;
   height: 100%;
-
   left: 40px;
   right: 40px;
   bottom: 20px;

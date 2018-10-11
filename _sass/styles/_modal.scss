@@ -26,6 +26,16 @@
   box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
 
 }
+.modal-window-video{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
 // modal bei "neue Frage erstellen"
 
 .modal-frage{
@@ -78,7 +88,17 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.modal-close-white{
+  width: 24px;
+  height:24px;
+  position: absolute;
+  right:16px;
+  top:16px;
+  cursor: pointer;
+  background-image: url(images/icons/close-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .modal-container{
   position: relative;
@@ -125,4 +145,14 @@
 }
 .modal.show{
   display: block;
+}
+
+// modal Videos
+.modal-window-video .modal-video {
+
+
+  max-height:50%;
+  // object-fit: contain;
+  border: 1px solid red;
+  mix-blend-mode: normal;
 }

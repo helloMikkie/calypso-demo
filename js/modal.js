@@ -31,7 +31,7 @@ function openModal(evt, name){
   const tablinks = document.getElementsByClassName("open-modal")
 
   const backgroundTag = document.querySelector('.modal div.modal-background')
-  const closeTags = document.querySelectorAll('.modal div.modal-close')
+  const closeTags = document.querySelectorAll('.modal div.modal-close, div.modal-close-white')
 
   modalContents.forEach(content =>{
     content.style.display = "none"
