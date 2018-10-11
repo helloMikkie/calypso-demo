@@ -1,79 +1,83 @@
-# Chapter 1 - Planungstreffen
-
-- sub: bezug
-  text: Welche Erfahrungen hast du mit Tanz?
-- sub: bezug
-  text: Schaue dir die Bilder an. Welches spricht dich besonders an und welches gefällt dir weniger? Bringe sie in eine Reihenfolge und begründe.
-- sub: bezug
-  text: Was begeistert dich momentan? Gibt es dafür Raum in deinem Beruf?
-
-- sub: motivation
-  text: Warum möchtest du dieses Tanzprojekt durchführen?
-- sub: motivation
-  text: Welche Hoffnungen und welche Bedenken hast Du?
-
-- sub: organisation
-  text: Legt die Termine für den Tanzunterricht verbindlich fest.
-- sub: organisation
-  text: Klärt, in welchem Raum der Unterricht stattfinden wird.
-- sub: organisation
-  text: Gibt es dort eine Musikanlage, Internet, ist es sauber, wie ist der Fußboden beschaffen?
-
-- sub: gestaltprozess
-  text: Werft einen Blick auf die Calypso-Fokusfelder und tauscht euch über eure Interessen aus.
-- sub: gestaltprozess
-  text: Welche Themen werden aktuell im Schulunterricht behandelt?
-
-- sub: vermittlung
-  text: Welche Regeln für den Unterrichtsablauf wollt ihr vereinbaren?
-- sub: vermittlung
-  text: Möchtet ihr die Zugangskonzepte als Projekteinstieg gemeinsam nutzen? Wann und wie wollt ihr sie gemeinsam mit den Schüler*innen sichten?
-
-- sub: handlungsoptionen
-  text: Kann die Lehrer*in durch zugewandtes Beobachten den Unterricht unterstützen?
-- sub: handlungsoptionen
-  text: Können die Lehrer*innen die Tanzvermittler*innen im Fall von Unsicherheiten und Konzentrationsproblemen seitens der Schüler*innen mit Rat und Tat unterstützen?
-- sub: handlungsoptionen
-  text: Können die Tanzvermittler*innen ihren Vermittlungsansatz transparent machen und die Beteiligten bei der Themenfindung für den Unterricht einbeziehen?
-
-- sub: reflexion
-  text: Habt ihr bereits einen Termin für ein Reflexionstreffen zur ‚Halbzeit’ des Projekts festgelegt?
-- sub: reflexion
-  text: Welche Zeitfenster und ritualisierten Gespräche könnt ihr einplanen, um während des Prozesses im Gespräch zu bleiben? (z.B. kleine Rituale, wie ein kurzes Gespräch, jeweils 5 Minuten nach dem Unterricht etc.)
-- sub: reflexion
-  text: Was läuft gut? Was kann wie verbessert werden?
 
 # Chapter 1 - Selbstbefragung
 
-- sub: biografisches
+- sub: 1_1_biografisches
   text: Welchen biografischen Hintergrund habe ich?
-- sub: biografisches
+- sub: 1_1_biografisches
   text: Wie steht dieser in Beziehung zu meinem Interesse für zeitgenössischen Tanz?
-- sub: biografisches
+- sub: 1_1_biografisches
   text: Welche anderen Kunstsparten interessieren mich?
 
-- sub: tanzverstaendnis
+- sub: 1_1_tanzverstaendnis
   text: Wann ist ein Bewegungsablauf für mich gelungen?
-- sub: tanzverstaendnis
+- sub: 1_1_tanzverstaendnis
   text: "Welche motorischen Grundfähigkeiten sind in einem Tanztraining besonders relevant (Kraft, Ausdauer, Schnelligkeit, Koordination, Haltung etc.)?"
-- sub: tanzverstaendnis
+- sub: 1_1_anzverstaendnis
   text: Was bedeutet für mich Präsenz?
 
-- sub: vermittlungsansatz
+- sub: 1_1_vermittlungsansatz
   text: Was möchte ich vermitteln?
-- sub: vermittlungsansatz
+- sub: 1_1_vermittlungsansatz
   text: Verfolge ich einen ergebnisoffenen Ansatz oder lege ich das Ziel der Aufführung vorher fest?
-- sub: vermittlungsansatz
+- sub: 1_1_vermittlungsansatz
   text: Was sind meine Stärken in der Vermittlung?
 
-- sub: vermittlungskompetenzen
+- sub: 1_1_vermittlungskompetenzen
   text: Welche der folgenden Punkte halte ich für die Tanzvermittlung wichtig?
-- sub: vermittlungskompetenzen
+- sub: 1_1_vermittlungskompetenzen
   text: Welche dieser Themen möchte ich in meiner Vermittlungsarbeit stärken und vertiefen? Welche Möglichkeiten gibt es dafür?
+
+
+
+# Chapter 1 - Planungstreffen
+
+- sub: 1_2_bezug
+  text: Welche Erfahrungen hast du mit Tanz?
+- sub: 1_2_bezug
+  text: Schaue dir die Bilder an. Welches spricht dich besonders an und welches gefällt dir weniger? Bringe sie in eine Reihenfolge und begründe.
+- sub: 1_2_bezug
+  text: Was begeistert dich momentan? Gibt es dafür Raum in deinem Beruf?
+
+- sub: 1_2_motivation
+  text: Warum möchtest du dieses Tanzprojekt durchführen?
+- sub: 1_2_motivation
+  text: Welche Hoffnungen und welche Bedenken hast Du?
+
+- sub: 1_2_organisation
+  text: Legt die Termine für den Tanzunterricht verbindlich fest.
+- sub: 1_2_organisation
+  text: Klärt, in welchem Raum der Unterricht stattfinden wird.
+- sub: 1_2_organisation
+  text: Gibt es dort eine Musikanlage, Internet, ist es sauber, wie ist der Fußboden beschaffen?
+
+- sub: 1_2_inhalt
+  text: Werft einen Blick auf die Calypso-Fokusfelder und tauscht euch über eure Interessen aus.
+- sub: 1_2_inhalt
+  text: Welche Themen werden aktuell im Schulunterricht behandelt?
+
+- sub: 1_2_vermittlung
+  text: Welche Regeln für den Unterrichtsablauf wollt ihr vereinbaren?
+- sub: 1_2_vermittlung
+  text: Möchtet ihr die Zugangskonzepte als Projekteinstieg gemeinsam nutzen? Wann und wie wollt ihr sie gemeinsam mit den Schüler*innen sichten?
+
+- sub: 1_2_kooperation
+  text: Kann die Lehrer*in durch zugewandtes Beobachten den Unterricht unterstützen?
+- sub: 1_2_kooperation
+  text: Können die Lehrer*innen die Tanzvermittler*innen im Fall von Unsicherheiten und Konzentrationsproblemen seitens der Schüler*innen mit Rat und Tat unterstützen?
+- sub: 1_2_kooperation
+  text: Können die Tanzvermittler*innen ihren Vermittlungsansatz transparent machen und die Beteiligten bei der Themenfindung für den Unterricht einbeziehen?
+
+- sub: 1_2_reflexion
+  text: Habt ihr bereits einen Termin für ein Reflexionstreffen zur ‚Halbzeit’ des Projekts festgelegt?
+- sub: 1_2_reflexion
+  text: Welche Zeitfenster und ritualisierten Gespräche könnt ihr einplanen, um während des Prozesses im Gespräch zu bleiben? (z.B. kleine Rituale, wie ein kurzes Gespräch, jeweils 5 Minuten nach dem Unterricht etc.)
+- sub: 1_2_reflexion
+  text: Was läuft gut? Was kann wie verbessert werden?
+
 
 # Chapter 3 - Klassenscan
 
-- sub: lernverhalten
+- sub: 3_lernverhalten
   text: Wie lange kann sich die Klasse auf eine Aufgabe konzentrieren?
 - sub: lernverhalten
   text: Können die Schüler*innen selbständig in Gruppen arbeiten?
@@ -112,7 +116,7 @@
 
   # Chapter 5 - Reflexionstreffen
 
-- sub: motivation
+- sub: 5_1_motivation
   text: "Welche Hoffnungen haben sich erfüllt, welche Wünsche sind noch offen?"
 - sub: motivation
   text: "Gab es anfängliche Bedenken und was ist aus ihnen geworden?"
@@ -160,13 +164,13 @@
 
 # Selbstevaluation
 
-- sub: kooperationEvaluation
+- sub: 5_2_kooperation
   text: "Habe ich heute anderen aufmerksam zugehört?"
-- sub: kooperationEvaluation
+- sub: 5_2_kooperation
   text: "Fiel es mir heute leicht, mit anderen zusammenarbeiten?"
-- sub: kooperationEvaluation
+- sub: 5_2_kooperation
   text: "Habe ich Vorschläge meiner Partner*in angenommen?"
-- sub: kooperationEvaluation
+- sub: k5_2_kooperation
   text: "Wurden meinen Vorschlägen angenommen?"
 
 - sub: verhalten
@@ -209,7 +213,7 @@
 
 # Abschlusstreffen
 
-- sub: prozess
+- sub: 7_1_prozess
   text: "Wie beurteilst Du den Prozess?"
 - sub: prozess
   text: "Was war gewöhnungsbedürftig?"

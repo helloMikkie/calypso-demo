@@ -1,0 +1,115 @@
+---
+layout: page_chapter2
+title: Choreografenbuch
+ziel-nr: 2
+ziel-title: interessieren
+color: "#4CC8B2"
+intro: "Nicht alle Schüler*innen sind sofort vom Tanzen begeistert. Wie können wir ihnen den zeitgenössischen Tanz nahebringen
+und sie an das Thema heranführen? In den <span>Zugangskonzepten</span> haben wir unterschiedliche Ansätze für verschiedene <span class='link ch-2'>Altersstufen</span> entwickelt
+und geben Tipps für Filme und Videos, die Brücken schlagen und das Eis brechen helfen."
+hero: images/hero/TanzZeit_Planungstreffen_Ansicht.png
+---
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+<article class="hinweis">
+  <div class="hinweisContent">
+    <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    <ul>
+      <li>Dauer:</li>
+      <li>Material:</li>
+    </ul>
+  </div>
+  <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+</article>
+
+<!-- subnavigation footer -->
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins" class="subnavTab  pb3 color-2 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab  pb3 color-2 no-underline f-s">Wegbereiter</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab  pb3  color-2 no-underline f-s">20.Jahrhundert</a></li>
+    <li><a href="#scrollTo-vier" class="subnavTab  pb3 color-2 no-underline f-s">Aktuell</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material">
+  <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+  <div class="hero-material-title">
+    <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+  </div>
+</div>
+
+<!-- Intro -->
+<section>
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+  </article>
+</div>
+</section>
+<!-- Content  -->
+
+<section class="mv5 " id="scrollTo-zwei">
+  <article class=" sectionTitle odd">
+    <h1 class="mv0 pt3 euclid-m f-xl tracked">Wegbereiter</h1>
+  </article>
+  <article class="sectionBack pa3">
+
+    <div class="wrapper">
+      {{ site.choreografen | where:"thema" , "wegbereiter"  }}
+
+    </div>
+
+  </article>
+</section>
+
+<section class="mv5" id="scrollTo-drei">
+  <article class=" pa3 mw7 center">
+    <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">20. Jahrhundert</h1>
+  </article>
+  <article class=" w-100  pb5 pt3 mb3  ">
+
+    <div class="wrapper">
+      {{ site.choreografen | where:"thema" , "20jhd"  }}
+
+
+
+  </article>
+</section>
+
+<section class="mv5 " id="scrollTo-vier">
+  <article class=" pa3 mw7 center bg-white ">
+    <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Aktuell</h1>
+  </article>
+
+  <article class="bg-white w-100  pb5 pt3 mb3  ">
+
+    <div class="wrapper">
+      {{ site.choreografen | where:"thema" , "aktuell"  }}
+    </div>
+
+  </article>
+</section>
+
+<!-- scrollTop Button -->
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>
+
+<!--  js -->
+<script src="js/subnav.js"></script>
+<script src="js/subnav_taglist.js"></script>
+<!-- <script src="js/avatar.js"></script> -->
+<script src="js/header-scroll.js"></script>
