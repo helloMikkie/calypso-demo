@@ -26,15 +26,7 @@
   box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
 
 }
-.modal-window-video{
-  position: fixed;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
-  overflow: hidden;
-}
+
 
 // modal bei "neue Frage erstellen"
 
@@ -147,12 +139,21 @@
   display: block;
 }
 
-// modal Videos
-.modal-window-video .modal-video {
-
-
-  max-height:50%;
-  // object-fit: contain;
-  border: 1px solid red;
-  mix-blend-mode: normal;
+.modal-window-video {
+  position: fixed;
+  width: 750px;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  border: 1px solid green;
+    transform: translate(-50%, -50%);
+      box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
+        border-radius: 4px;
+}
+.modal-window-video video{
+  position: absolute;
+  top:0;
+  object-fit: contain;
+    mix-blend-mode: normal;
+    transform: scale(1);
 }
