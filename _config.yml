@@ -68,8 +68,10 @@ collections:
   praesentation:
     style:
       output: true
-
-
+  texts:
+    style:
+      output: true
+      
 defaults:
 -
     scope:
