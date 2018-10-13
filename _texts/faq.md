@@ -4,7 +4,7 @@ title: faq
 
 ## „Mir ist das alles viel zu laut.“
 
-Jede Stunde ist anders und nicht alles lässt sich genau vorhersehen. Dennoch gibt es Unterrichtenden oftmals Sicherheit, wenn sie die Stunde vorbereiten können. Die Unterrichtsplanung unterstützt euch dabei, die Abläufe festzulegen und zu strukturieren. So könnt ihr den Unterricht bewusster lenken, Abweichungen vom Plan genau registrieren und gleich analysieren, warum der Unterricht an einem bestimmten ** Punkt in eine andere als die erwartete Richtung geht.
+Jede Stunde ist anders und nicht alles lässt sich genau vorhersehen. Dennoch gibt es Unterrichtenden oftmals Sicherheit, wenn sie die Stunde vorbereiten können. Die Unterrichtsplanung unterstützt euch dabei, die Abläufe festzulegen und zu strukturieren. So könnt ihr den Unterricht bewusster lenken, Abweichungen vom Plan genau registrieren und gleich analysieren, warum der Unterricht an einem bestimmten ***Punkt*** in eine andere als die erwartete Richtung geht.
 Die Unterrichtsplanung kann auch helfen, sich vorher die Schnittstellen für alternative Wege zu überlegen und Möglichkeiten für Varianten des geplanten Unterrichtsverlaufs durchzuspielen - und sie zu notieren. So seid ihr auf Unvorhergesehenes besser vorbereitet.
 
 ## Was stört? (Der Ist-Zustand)
