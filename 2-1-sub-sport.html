@@ -1,0 +1,31 @@
+---
+layout: page_chapter2
+title: Zugangskonzepte
+ziel-nr: 2
+ziel-title: interessieren
+color: "#4CC8B2"
+thumbnail: images/thumbnails/superhero.jpg
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<div class="wrapper markdown">
+    {{ site.zugangskonzepte | where:"title" , "sport-sub" }}
+</div>
+
+
+
+<!-- scrollTop Button -->
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>
+
+<!--  js -->
+
+<!-- <script src="js/avatar.js"></script> -->
+<!-- <script src="js/header-scroll.js"></script> -->

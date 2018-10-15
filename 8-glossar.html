@@ -29,10 +29,10 @@ dabei als Objekt ein „Buch“, das alte oder fremde Wörter erläutert."
 <!-- Introtext -->
   <div class="wrapper" id="scrollTo-eins">
     <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
-    {{ page.intro }}
+    <span class="mr3">{{ page.title }}</span>{{ page.intro }}
     </article>
   </div>
 
-<div class="wrapper">
+<div class="wrapper markdown">
     {{ site.texts | where:"title" , "glossar" }}
 </div>

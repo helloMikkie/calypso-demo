@@ -1,0 +1,52 @@
+---
+layout: page_chapter2
+title: Choreografenbuch
+ziel-nr: 2
+ziel-title: interessieren
+color: "#4CC8B2"
+ziel: "Über die Popkultur wird ein Zugang zum zeitgenössischen Tanz geschaffen. Schüler*innen können an diesem Beispiel lernen, wie durch gegenseitige Inspiration etwas Neues entsteht."
+kontext: "Das Musik-Video von Beyoncé ist 2011 erschienen. Die Tanzschritte wurden jedoch vor 30 Jahren von Ann Teresa De Keersmaeker erfunden.
+Der offensichtliche Schwindel fliegt auf und de Keersmaeker gewinnt den Rechtsstreit um ihre Autorenschaft. Danach nutzt sie die globale Popularität von Beyonce und die digitalen Möglichkeiten,
+um ihre Choreografie einem Massenpublikum über YouTube zugänglich zu machen. Das Projekt Re:Rosas! The fABULEUS Rosas Remix entsteht: Menschen aus der ganzen Welt schicken Tanzvideos ein,
+in denen das Bewegungsmaterial von De Keersmaeker entweder präzise kopiert oder künstlerisch verhandelt wird."
+fragestellungen: "Seht ihr Unterschiede und Gemeinsamkeiten zwischen Tanzstilen? Wer hat von wem die Bewegungen kopiert?
+Findet ihr es in Ordnung, Bewegungen zu „klauen“? Seht ihr einen Unterschied zwischen imitieren, klauen und kopieren? Wenn ja, wie würdet ihr ihn beschreiben? "
+
+thumbnail: ../images/thumbnails/superhero.jpg
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<!-- hero-Material -->
+
+<!-- <div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div> -->
+
+
+<!-- Introtext -->
+  <!-- <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    <span class="mr3">{{ page.title }}</span>{{ page.intro }}
+    </article>
+  </div> -->
+
+<div class="wrapper markdown">
+    {{ site.choreografen | where:"title" , "duncan-bio" }}
+</div>
+
+
+
+
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>

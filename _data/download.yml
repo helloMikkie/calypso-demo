@@ -54,3 +54,49 @@
   name: Abschreiben erlaubt?
   adressat: "Lehrer*innen, Tänzer*innen"
   filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Gaming
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Tanztypen
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Beruf Tanz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+
+- category: Biographie
+  ziel: kennenlernen
+  name: Isodora Duncan
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Merce Cunningham
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Mary Wigman
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Sasha Waltz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Spiel
+  ziel: kennenlernen
+  name: Alles ist Tanz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Planung
+  ziel: Service
+  name: Unterrichtsplanung
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:

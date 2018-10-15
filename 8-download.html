@@ -16,24 +16,55 @@ Seit der weiten Verbreitung schneller Internet-Anschlüsse spielen Downloads ein
 
 
 
-<!-- hero-Material -->
-
-<!-- <div class="hero-material" >
-    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
-
-      <div class="hero-material-title">
-        <h1 class="euclid-m mv0">{{ page.title }}</h1>
-      </div>
-</div> -->
-
 
 <!-- Introtext -->
   <div class="wrapper" id="scrollTo-eins">
     <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
-    {{ page.intro }}
+    <span class="mr3">{{page.title}}</span>{{ page.intro }}
     </article>
   </div>
 
-<div class="wrapper">
-    {{ site.texts | where:"title" , "download" }}
-</div>
+
+  <!-- content -->
+
+  <section class="mv5 ">
+
+    <article class="sectionBack pa3">
+
+      <div class="wrapper" id="scrollTo-eins">
+        <!-- <h1 class="mv0 pt3 pb5 euclid-m f-xl tracked">experimentell</h1> -->
+
+        <table>
+          <tr>
+            <th>Art</th>
+            <th>Ziel</th>
+            <th>Name</th>
+            <th>Adressat</th>
+            <th>Dateigröße</th>
+          </tr>
+          <tr>
+            {% for item in site.data.download %}
+
+            <td>{{ item.category }}</td>
+            <td>{{ item.ziel }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.adressat }}</td>
+            <td>{{ item.filesize }}</td>
+
+          </tr>
+          {% endfor %}
+        </table>
+
+      </div>
+</article>
+
+  </section>
+
+
+
+
+  <!--  javascript -->
+  <script src="js/subnav.js"></script>
+  <script src="js/subnav_taglist.js"></script>
+  <script src="js/header-scroll.js"></script>
+  <script src="js/tabbar.js"></script>
