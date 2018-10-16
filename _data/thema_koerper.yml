@@ -78,7 +78,7 @@
 
 - sub: koerperform
   front: Linear
-  back: Wie einen Stift
+  back: Wie ein Stift
   flip: 1
 - sub: koerperform
   front: Flach

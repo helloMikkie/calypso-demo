@@ -1,12 +1,12 @@
 ---
 layout: page_chapter4
-title: Körper und Bewegung
+title: Tanzkulturen
 ziel-nr: 4
 color: "#f89700"
 text-color: "#ee8f01"
 ziel-title: thematisieren
 intro: "Im Fokusfeld Körper und Bewegung achten die Schüler*innen besonders auf ihren <span class='ch-4'>Körper</span>  und darauf, was beim zeitgenössischen Tanzen mit ihm passiert. <br /> Hierbei stehen Wahrnehmen, Explorieren, Empfinden, Erleben und Üben im Mittelpunkt: Die Schüler*innen erfahren durch die bewusste Wahrnehmung des eigenen und auch der anderen Körper die Beziehung zwischen sich selbst und der Welt. Deshalb wird großer Wert auf die Durchlässigkeit von Empfindungen der Tanzenden gelegt. Durch Improvisation entwickeln die jungen Menschen eine persönliche Bewegungssprache. <br /> Angelehnt an die Bewegungsanalyse von Rudolf von Laban lassen sich die unterschiedlichen Aspekte (z.B. Körper, <span class='ch-4'>Form,</span> <span class='ch-4'>Raum,</span> <span class='ch-4'>Phrasierung,</span> <span class='ch-4'>Beziehung,</span>) einzeln anwenden oder miteinander kombinieren, um den eigenen Körper und unterschiedliche <span class='ch-4'>Bewegungs-</span>qualitäten besser kennenzulernen und um sich ausdrücken zu können. Durch die Einbeziehung verschiedener Techniken (z.B. Kontaktimprovisation), Martial Arts und somatischer Praktiken (z.B. Feldenkrais) fördert zeitgenössischer Tanz nicht nur das Körpergefühl junger Menschen, sondern unterstützt sie in ihrer gesamten Selbstwahrnehmung und ihrem Selbstausdruck - ganz ohne den sonst im Sport üblichen Wettbewerbsgedanken."
-hero: images/hero/4-hero-koerper.png
+hero: images/hero/4-hero-gesellschaft.png
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 ---
@@ -37,12 +37,12 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 <article class="subnavigation">
   <ul>
     <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
-    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Körper</a></li>
-    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Form</a></li>
-    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Raum</a></li>
-    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Phrasierung</a></li>
-    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Beziehung</a></li>
-    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Bewegung</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Traditionell</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Gesellschaft</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Urban</a></li>
+    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Bühne</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Rituell</a></li>
+    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Andere</a></li>
   </ul>
 </article>
 
@@ -70,26 +70,18 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-zwei">
 
       <article class=" sectionTitle odd pa3">
-        <h1 class="mv0 pt2 euclid-m f-xl tracked">Körper</h1>
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Traditionelle Tänze</h1>
       </article>
 
       <article class="sectionBack pa3 mb3">
         <div class="  pa3 flex items-center justify-center">
-          <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Körperteile</h2>
           <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
       </div>
 
         <div class="content center" >
-          {{ site.themenfelder | where:"thema" , "koerperteile" }}
+          {{ site.themenfelder | where:"thema" , "traditionell" }}
         </div>
       </article>
-
-        <article class="sectionBack pa3 mb3">
-          <h2 class="tc f-xl" style="color:{{page.text-color}}">Körperaktionen</h2>
-          <div class="content center ">
-            {{ site.themenfelder | where:"thema" , "koerperaktionen" }}
-          </div>
-        </article>
 
   </section>
 
@@ -97,23 +89,12 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-drei">
 
     <article class=" sectionTitle pa3">
-      <h1 class="mv0 pt2 euclid-m f-xl tracked">Form</h1>
+      <h1 class="mv0 pt2 euclid-m f-xl tracked">Gesellschaftstänze</h1>
     </article>
 
     <article class="w-100 pa3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Körperform</h2>
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "koerperform" }}
-      </div>
-    </article>
-
-    <article class="w-100 pa3 ">
-      <div class="pa3 flex items-center justify-center">
-        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Formqualitäten</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
-    </div>
-      <div class="content center">
-        {{ site.themenfelder | where:"thema" , "formqualitaeten" }}
+        {{ site.themenfelder | where:"thema" , "gesellschaftstaenze" }}
       </div>
     </article>
 
@@ -125,37 +106,15 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-vier">
 
     <article class=" sectionTitle odd pa3 ">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Persönlicher Raum</h1>
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Urbane Tänze</h1>
     </article>
 
     <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Reichweite</h2>
         <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'reichweite')"></button>
       </div>
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "reichweite" }}
-      </div>
-    </article>
-
-    <article class="sectionBack pa3 mb3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Ebenen</h2>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "ebenen" }}
-      </div>
-    </article>
-
-    <article class="sectionBack pa3 mb3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Bewegungsrichtungen</h2>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "bewegungsrichtungen" }}
-      </div>
-    </article>
-
-    <article class="sectionBack pa3 mb3" >
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Flächen</h2>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "flaechen" }}
+        {{ site.themenfelder | where:"thema" , "urban" }}
       </div>
     </article>
 
@@ -166,23 +125,15 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-fuenf">
 
     <article class="sectionTitle pa3">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Phrasierung</h1>
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Bühnentänze</h1>
     </article>
 
     <article class=" w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
-        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Bestandteile von Bewegungsphrasen</h2>
         <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
       </div>
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "bewegungsphrasen" }}
-      </div>
-    </article>
-
-    <article class="w-100 pa3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Zeitlicher Bewegungsverlauf</h2>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "bewegungsverlauf" }}
+        {{ site.themenfelder | where:"thema" , "buehnentaenze" }}
       </div>
     </article>
 
@@ -193,24 +144,17 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-sechs">
 
     <article class="sectionTitle odd pa3 ">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Beziehung</h1>
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Rituelle Tänze</h1>
     </article>
 
-    <article class="sectionBack pa3 mb3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Art</h2>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "art" }}
-      </div>
-    </article>
 
     <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <h2 class=" tc f-xl" style="color:{{page.text-color}}">zu Anderen</h2>
         <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'beziehung')"></button>
       </div>
 
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "anderen" }}
+        {{ site.themenfelder | where:"thema" , "rituell" }}
       </div>
     </article>
 
@@ -222,16 +166,15 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <section class="mv5" id="scrollTo-sieben">
 
     <article class="sectionTitle pa3">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Bewegungsqualitäten</h1>
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Andere Bewegungskulturen</h1>
     </article>
 
     <article class="w-100 pa3 ">
           <div class="pa3 flex items-center justify-center">
-            <h2 class=" tc f-xl" style="color:{{page.text-color}}">Antrieb</h2>
             <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'antrieb')"></button>
           </div>
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "antrieb" }}
+        {{ site.themenfelder | where:"thema" , "bewegungskulturen" }}
       </div>
     </article>
 
