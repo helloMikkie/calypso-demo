@@ -51,6 +51,17 @@
 }
 
 /* letter spacing */
-.ls-small{
-  letter-spacing: 0.02em;
+
+.tracked       { letter-spacing:  .06em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked-mega  { letter-spacing:  .25em; }
+.tracked-medium {
+  letter-spacing: 0.03em;
 }
+
+// line-height
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+.lh-md    { line-height: 1.75; }
+.lh-lg   { line-height: 2; }

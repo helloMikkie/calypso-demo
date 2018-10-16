@@ -22,10 +22,10 @@ $font-scale-ratio: 1.125;
 .f-md{font-size: calc(#{$font-base-size} * #{$font-scale-ratio});}
 .f-ml{font-size: calc(#{$font-base-size} * #{$font-scale-ratio} * #{$font-scale-ratio});}
 .f-lg{font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} );}
-.f-xl{font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
-      letter-spacing:0.03em; }
+.f-xl{font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
 .f-xxl {font-size: calc(#{$font-base-size}*  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
-.f-xxxl {font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});}
+.f-xxxl {font-size: calc(#{$font-base-size} *  #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+          }
 
 
 

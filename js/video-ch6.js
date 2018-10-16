@@ -52,7 +52,7 @@ document.addEventListener('scroll', function(){
       videoSpeed(true);
       videoPlaying = true;
     }
-    overlayTag.classList.remove('color')
+    overlayTag.classList.remove('color-ch6')
     video.classList.remove('filter')
 
 
@@ -61,7 +61,7 @@ document.addEventListener('scroll', function(){
       videoSpeed(false);
       videoPlaying = false;
     }
-    overlayTag.classList.add('color')
+    overlayTag.classList.add('color-ch6')
     video.classList.add('filter')
 
   }
