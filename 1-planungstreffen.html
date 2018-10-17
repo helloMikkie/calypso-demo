@@ -71,7 +71,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
 <section class="mv5" id="scrollTo-zwei">
     <article class="sectionTitle odd">
-      <h1 class="mv0 pt3 euclid-m f-xl tracked">Fragen zur Kooperation</h1>
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Bezug</h1>
     </article>
     <article class="sectionBack pa3">
         <div class="description ph3 lh-copy ls-small euclid-r">
@@ -82,7 +82,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
               Was genau interessiert dich daran? Warum?</p>
         </div>
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "bezug"  }}
+            {{ site.fragen | where:"thema" , "1_2_bezug"  }}
           </div>
     </article>
   </section>
@@ -94,7 +94,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       </article>
       <article class="w-100 pa3">
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "motivation"  }}
+            {{ site.fragen | where:"thema" , "1_2_motivation"  }}
           </div>
       </article>
     </section>
@@ -108,18 +108,18 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
         <article class="sectionBack pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "organisation"  }}
+                {{ site.fragen | where:"thema" , "1_2_organisation"  }}
               </div>
         </article>
       </section>
 
       <section class=" mv5" >
           <article class="sectionTitle">
-            <h1 class="mv0 pt2  euclid-m f-xl tracked">Gestaltprozess</h1>
+            <h1 class="mv0 pt2  euclid-m f-xl tracked">Inhalt</h1>
           </article>
           <article class="w-100 pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "gestaltprozess"  }}
+                {{ site.fragen | where:"thema" , "1_2_inhalt"  }}
               </div>
           </article>
         </section>
@@ -131,7 +131,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
             <article class="sectionBack pa3">
                   <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "vermittlung"  }}
+                    {{ site.fragen | where:"thema" , "1_2_vermittlung"  }}
                   </div>
             </article>
           </section>
@@ -140,7 +140,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
           <section class=" mv5" data-tipp="{{ page.tipp-zwei }}">
               <article class="sectionTitle">
-                <h1 class="mv0 pt2 euclid-m f-xl tracked">Handlungsoptionen</h1>
+                <h1 class="mv0 pt2 euclid-m f-xl tracked">Kooperation</h1>
               </article>
 
                 <div class="description ph3 lh-copy ls-small euclid-r">
@@ -149,7 +149,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
                   </div>
               <article class="w-100 pa3">
                   <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "vermittlung"  }}
+                    {{ site.fragen | where:"thema" , "1_2_kooperation"  }}
                   </div>
               </article>
             </section>
@@ -161,7 +161,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
                 <article class="sectionBack pa3">
 
                       <div class="wrapper">
-                        {{ site.fragen | where:"thema" , "reflexion"  }}
+                        {{ site.fragen | where:"thema" , "1_2_reflexion"  }}
                       </div>
                 </article>
               </section>

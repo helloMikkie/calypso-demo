@@ -1,14 +1,14 @@
 ---
 layout: page_chapter5
-title: Selbstevaluation
+title: Selbsteinschätzung
 ziel-nr: 5
 color: "#FC754B"
 text-color: ""
 ziel-title: reflektieren
-intro: "Beim Planungstreffen begegnen sich Tanzvermittler*in und Lehrer*in zum ersten Mal. Dieser <span class='link ch-1'>Leitfaden</span> gibt dir Anregungen für die Gesprächsführung und fasst die wesentlichen Themen zusammen.
-<span>Denn eure gute Zusammenarbeit trägt wesentlich zum Gelingen des Projekts bei.</span> Dabei geht es sowohl darum, dass ihr euch gegenseitig kennenlernt und euch über eure Erwartungen austauscht,
-als auch um organisatorische Aspekte. Meist moderieren die Tanzvermittler*innen dieses Gespräch.<br /><br />
-Die besprochenen Inhalte des Planungstreffens dienen später als Grundlage für das <span class='link ch-1'>Reflexionstreffen</span> in der Mitte und das <span class='link ch-1'>Abschlusstreffen</span> am Ende des Projekts."
+intro: "Der Fragebogen zur Selbsteinschätzung für Schüler*innen funktioniert grundsätzlich in zwei Richtungen:
+Zum einen regt er die Schüler*innen dazu an, ihre eigene Leistung einzuschätzen und ihr Verhalten zu reflektieren.
+Zum anderen bekommst du als Tanzvermittler*in über den Fragebogen eine Rückmeldung, wie das Projekt bei den einzelnen Schüler*innen ankommt
+und lernst sie so besser kennen."
 hero: images/hero/planungstreffen/hero_animation.svg
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
@@ -92,7 +92,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       </article>
       <article class="w-100 pa3">
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "verhalten"  }}
+            {{ site.fragen | where:"thema" , "5_2_verhalten"  }}
           </div>
       </article>
     </section>
@@ -106,7 +106,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
         <article class="sectionBack pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "spass"  }}
+                {{ site.fragen | where:"thema" , "5_2_spass"  }}
               </div>
         </article>
       </section>
@@ -117,11 +117,24 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
           </article>
           <article class="w-100 pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "tanzunterricht"  }}
+                {{ site.fragen | where:"thema" , "5_2_tanzunterricht"  }}
               </div>
           </article>
         </section>
 
+
+
+        <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
+            <article class="sectionTitle odd">
+              <h1 class="mv0 pt2  euclid-m f-xl tracked">Sonstiges</h1>
+            </article>
+
+            <article class="sectionBack pa3">
+                  <div class="wrapper">
+                    {{ site.fragen | where:"thema" , "5_2_sonstiges"  }}
+                  </div>
+            </article>
+          </section>
 
 <!-- neue Frage -->
             <section class="mv5" id="scrollTo-acht">

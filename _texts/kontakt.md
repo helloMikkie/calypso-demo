@@ -2,34 +2,34 @@
 title: kontakt
 ---
 
-TanzZeit e.V.
-Klosterstraße 68
-10179 Berlin
+- TanzZeit e.V.
+- Klosterstraße 68
+- 10179 Berlin
 
-Telefon: (030) 247 49 791
-Fax: (030) 247 49 710
-www.tanzzeit-berlin.de
-info(at)tanzzeit-berlin.de
+- Telefon: (030) 247 49 791
+- www.tanzzeit-berlin.de
+- info(at)tanzzeit-berlin.de
 
 
-ANSPRECHPARTNER:
-Livia Patrizi – Künstlerische Leitung und Gesamtleitung
-patrizi(at)tanzzeit-berlin.de
+## Ansprechpartner
 
-Marie Beyeler - Projektleitung Tanz in Schulen
-beyeler(at)tanzzeit-berlin.de
+* Livia Patrizi – Künstlerische Leitung und Gesamtleitung
+* patrizi(at)tanzzeit-berlin.de
 
-An Boekman – Projektentwicklung
-boekman(at)tanzzeit-berlin.de
+* Marie Beyeler - Projektleitung Tanz in Schulen
+* beyeler(at)tanzzeit-berlin.de
 
-Thomas Dörschel - Projektverwaltung
-doerschel(at)tanzzeit-berlin.de
+* An Boekman – Projektentwicklung
+* boekman(at)tanzzeit-berlin.de
 
-Carola Söllner – Produktionsleitung
-soellner(at)tanzzeit-berlin.de
+* Thomas Dörschel - Projektverwaltung
+* doerschel(at)tanzzeit-berlin.de
 
-Sanna von Zedlitz – Koordination und Kommunikation
-zedlitz(at)tanzzeit-berlin.de
+* Carola Söllner – Produktionsleitung
+* soellner(at)tanzzeit-berlin.de
+
+* Sanna von Zedlitz – Koordination und Kommunikation
+* zedlitz(at)tanzzeit-berlin.de
 
 
 
@@ -42,7 +42,7 @@ Tel. 030/24749791
 
 Mail: info(at)tanzzeit-berlin.de
 
-Steuernummer 27| 647 | 51327
+Steuernummer 27  647  51327
 
 Finanzamt für Körperschaften Berlin
 Gerichtsstand Berlin
@@ -50,17 +50,13 @@ Gerichtsstand Berlin
 
 Geschäftsführung: Livia Patrizi
 
-Website Design: Michael Heimann (www.heimannundschwantes.de)
-Programmierung: werbit | Uwe Schröder (www.werbit.de)
+Web
 
 Fotos: Marion Borriss (www.tanzfotografin.de), Tiziana und Valeria Tomasulo
 
 
 Redaktion: Marie Beyeler, Sanna von Zedlitz
 
-Logo TanzZeit: Laurence Bastin, überarbeitet durch Michael Heimann
-
-Logo Tanzspielzeit: Annett Hansen, www.design-hansen.de
 
 
 

@@ -28,7 +28,6 @@
   text: Welche dieser Themen möchte ich in meiner Vermittlungsarbeit stärken und vertiefen? Welche Möglichkeiten gibt es dafür?
 
 
-
 # Chapter 1 - Planungstreffen
 
 - sub: 1_2_bezug
@@ -79,87 +78,87 @@
 
 - sub: 3_lernverhalten
   text: Wie lange kann sich die Klasse auf eine Aufgabe konzentrieren?
-- sub: lernverhalten
+- sub: 3_lernverhalten
   text: Können die Schüler*innen selbständig in Gruppen arbeiten?
-- sub: lernverhalten
+- sub: 3_lernverhalten
   text: Können sie Aufgabenstellungen für sich umsetzen und kreative Lösungen finden?
 
-- sub: sozialverhalten
+- sub: 3_sozialverhalten
   text: "Welcher Umgangsmodus bestimmt das Sozialverhalten, ist er freundlich/respektvoll oder eher ruppig? Welche “Sprache” sprechen die Schüler?"
-- sub: sozialverhalten
+- sub: 3_sozialverhalten
   text: Wie gehen Mädchen und Jungen miteinander um?
-- sub: sozialverhalten
+- sub: 3_sozialverhalten
   text: Welche Cliquen existieren?
-- sub: sozialverhalten
+- sub: 3_sozialverhalten
   text: Lassen sich Meinungsführer ausmachen? Welche Schüler*innen ordnen sich eher unter? Gibt es Außenseiter?
 
-- sub: motorik
+- sub: 3_motorik
   text: "Welche - der Altersgruppe entsprechenden - motorischen Fähigkeiten sind gut ausgebildet, welche weniger und welche fehlen ganz?"
-- sub: motorik
+- sub: 3_motorik
   text: Wie gut können sich die Schüler*innen körperlich artikulieren?
-- sub: motorik
+- sub: 3_motorik
   text: Über welche körperliche Risikobereitschaft verfügt die Klasse?
-- sub: motorik
+- sub: 3_motorik
   text: Wer braucht Unterstützung bei Bewegungsabläufen?
 
-- sub: energie
+- sub: 3_energie
   text: "Sind die Schüler motiviert und wie steht es mit ihrer Ausdauer? Sind sie fähig und bereit zu körperlicher Anstrengung, auch über eine längere Dauer. Wie hoch ist ihr „Energielevel“?"
-- sub: energie
+- sub: 3_energie
   text: "Welcher Zusammenhang besteht zwischen „Energielevel“ und Motivationsgrad?  (z.B. viel Energie – wenig Motivation, oder viel Energie – viel Motivation)"
 
-- sub: wesen
+- sub: 3_wesen
   text: Fühle ich mich durch die Klasse oder einzelne Schüler*innen inspiriert?
-- sub: wesen
+- sub: 3_wesen
   text: Welche Themen interessieren die Schüler*innen?
-- sub: wesen
+- sub: 3_wesen
   text: "Wenn ich Schwächen und Probleme, aber auch besondere Fähigkeiten der Klasse erkannt habe: Wie kann ich beides in meine Arbeit einfließen lassen und künstlerisch umsetzen?"
 
-  # Chapter 5 - Reflexionstreffen
+# Chapter 5 - Reflexionstreffen
 
 - sub: 5_1_motivation
   text: "Welche Hoffnungen haben sich erfüllt, welche Wünsche sind noch offen?"
-- sub: motivation
+- sub: 5_1_motivation
   text: "Gab es anfängliche Bedenken und was ist aus ihnen geworden?"
-- sub: motivation
+- sub: 5_1_motivation
   text: "Könnt Ihr gemeinsame Ziele für die zweite Hälfte des Projektes formulieren? (z.B. Stärkung des Ausdrucks- und Bewegungswillens der Schüler*innen, Förderung des Gemeinschaftssinns)"
 
-- sub: organisation
+- sub: 5_1_organisation
   text: "Habt Ihr alle Unterrichtstermine aktualisiert?"
-- sub: organisation
+- sub: 5_1_organisation
   text: "Habt Ihr dabei die Termine der Präsentationen, Extra- und Generalproben berücksichtigt?"
-- sub: organisation
+- sub: 5_1_organisation
   text: "Sind alle für die Präsentation notwendigen Materialien, wie z.B. Kostüme usw. organisiert? Wie möchtet ihr vorgehen?"
 
-- sub: inhalte
+- sub: 5_1_inhalte
   text: "Kannst du als Tanzvermittler*in deine bisherige Vorgehensweise erläutern?"
-- sub: inhalte
+- sub: 5_1_inhalte
   text: "Welches sind Eure bisherigen Unterrichtsinhalte? Tauscht Euch aus. Habt Ihr dazu die Fokusfelder berücksichtigt?"
-- sub: inhalte
+- sub: 5_1_inhalte
   text: "Wie können diese Inhalte im weiteren Projektverlauf bis zur Präsentation gestaltet werden?"
-- sub: inhalte
+- sub: 5_1_inhalte
   text: "Habt ihr Euch die Qualitätskriterien für Choreografie als Hilfestellung herangezogen, um das Wesentliche des Materials herauszufiltern?"
 
-- sub: vermittlung
+- sub: 5_1_vermittlung
   text: "Welche Ansprache, Rituale o.ä. brauchen die Schüler*innen, um eine Präsentation auf die Beine zu stellen?"
-- sub: vermittlung
+- sub: 5_1_vermittlung
   text: "Wie bringt man ihnen bei, dass die Präsentation mit Üben, Wiederholen und Arbeiten verbunden ist?"
-- sub: vermittlung
+- sub: 5_1_vermittlung
   text: "Wie kannst du als Lehrer*in die Tanzvermittler*innen bei den Vorbereitungen unterstützen?"
-- sub: vermittlung
+- sub: 5_1_vermittlung
   text: "Kannst du als Tanzvermittler*in etwas an ihrem Vermittlungsansatz verbessern?"
 
-- sub: kooperation
+- sub: 5_1_kooperation
   text: "Wie hat sich eure Zusammenarbeit entwickelt und was könnt ihr Euch für die Dauer des Projekts noch vorstellen?"
-- sub: kooperation
+- sub: 5_1_kooperation
   text: "Willst du als Lehrer*in selbst eine Erfahrung machen und mittanzen?"
-- sub: kooperation
+- sub: 5_1_kooperation
   text: "Willst du als Lehrer*in selbst Übungen und Rituale anleiten?"
 
-- sub: reflexion
+- sub: 5_1_reflexion
   text: "Seid Ihr beide zufrieden mit Euren Ritualen, die ihr anfangs zur gemeinsamen Reflexion festgelegt habt?"
-- sub: reflexion
+- sub: 5_1_reflexion
   text: "Seid Ihr beide zufrieden damit, wie ihr die Kommunikation in Eurem Prozess gestaltet? Möchtet ihr etwas ändern?"
-- sub: reflexion
+- sub: 5_1_reflexion
   text: "Habt Ihr einen Termin für euer Abschlusstreffen am Ende des Projektes festgelegt?"
 
 # Selbstevaluation
@@ -170,101 +169,101 @@
   text: "Fiel es mir heute leicht, mit anderen zusammenarbeiten?"
 - sub: 5_2_kooperation
   text: "Habe ich Vorschläge meiner Partner*in angenommen?"
-- sub: k5_2_kooperation
+- sub: 5_2_kooperation
   text: "Wurden meinen Vorschlägen angenommen?"
 
-- sub: verhalten
+- sub: 5_2_verhalten
   text: "Habe ich heute jemanden geschlagen, getreten, angerempelt, beschimpft usw.?"
-- sub: fverhalten
+- sub: 5_2_verhalten
   text: "Habe ich mich heute an die Regeln unserer Klasse gehalten?"
-- sub: verhalten
+- sub: 5_2_verhalten
   text: Bin ich heute zufrieden mit meinem Verhalten?
 
-- sub: spass
+- sub: 5_2_spass
   text: "Hatte ich heute Spaß hatte beim Tanzen?"
-- sub: spass
+- sub: 5_2_spass
   text: "Freue ich mich auf den nächsten Tanzunterricht?"
-- sub: spass
+- sub: 5_2_spass
   text: "Was macht mir im Tanzunterricht am meisten Spaß?"
 
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Fiel es mir heute leicht, Bewegungen nachzumachen?"
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Fiel es mir heute leicht, Bewegungen zu erfinden?"
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Konnte ich heute meine Bewegungsideen in die Gruppe einbringen?"
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Was hast Du heute Neues erfahren/gelernt?"
-- sub: ftanzunterricht
+- sub: 5_2_ftanzunterricht
   text: "Fiel es mir heute leicht, zu improvisieren?"
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Wenn nicht, warum?"
-- sub: tanzunterricht
+- sub: 5_2_tanzunterricht
   text: "Welche Ideen habe ich zu unserem Tanzstück?"
 
-- sub: sonstiges
+- sub: 5_2_sonstiges
   text: "Was wünsche ich mir im Tanzunterricht?"
-- sub: sonstiges
+- sub: 5_2_sonstiges
   text: "Gibt es etwas, das mich stört?"
-- sub: sonstiges
+- sub: 5_2_sonstiges
   text: "Was gefällt mir im Tanzunterricht?"
-- sub: sonstiges
+- sub: 5_2_sonstiges
   text: "Was ich sonst noch loswerden möchte?"
 
 # Abschlusstreffen
 
 - sub: 7_1_prozess
   text: "Wie beurteilst Du den Prozess?"
-- sub: prozess
+- sub: 7_1_prozess
   text: "Was war gewöhnungsbedürftig?"
-- sub: prozessverlauf
+- sub: 7_1_prozess
   text: "Was hat Dich bewegt/erstaunt?"
-- sub: prozess
+- sub: 7_1_prozess
   text: "Welche Erkenntnisse nimmst Du aus dem Prozess mit?"
 
-- sub: fazit
+- sub: 7_1_fazit
   text: "Welche Ziele haben sich eingelöst?"
-- sub: fazit
+- sub: 7_1_fazit
   text: "Wie haben sich die Schüler*innen entwickelt?"
-- sub: fazit
+- sub: 7_1_fazit
   text: "Was nehmen die Kinder aus dem Prozess mit?"
-- sub: fazit
+- sub: 7_1_fazit
   text: "Wie habt Ihr die Präsentation erlebt? Hatte das Stück inhaltlich für Euch Relevanz?"
-- sub: fazit
+- sub: 7_1_fazit
   text: "Habt Ihr den Evaluationsbogen ausgefüllt?"
 
-- sub: perspektiven
+- sub: 7_1_perspektiven
   text: "Gibt es das Bedürfnis das Tanzprojekt fortzuführen?"
-- sub: perspektiven
+- sub: 7_1_perspektiven
   text: "Wenn ja, wie kann der/die Tanzvermittler*in dabei unterstützen? Wenn nein, warum nicht?"
-- sub: perspektiven
+- sub: 7_1_perspektiven
   text: "Kann sich der/die Lehrer*in vorstellen gemeinsam mit dem/der Tanzvermittler*in ein gesamtes Projekt inhaltlich zu planen, gestalten und durchzuführen?"
-- sub: perspektiven
+- sub: 7_1_perspektiven
   text: "Ist der Lehrer*in das Tandemformat und das Hand in Hand Schulen Modell bekannt?"
 
 # ProjektEvaluation
 
-- sub: meinung
+- sub: 7_2_meinung
   text: "Was hat Dir am Tanzprojekt gefallen?"
-- sub: meinung
+- sub: 7_2_meinung
   text: "Was hat Dir gefehlt?"
-- sub: meinung
+- sub: 7_2_meinung
   text: "Beschreibe das, was Du im Tanzprojekt am Liebsten gemacht hast?"
-- sub: meinung
+- sub: 7_2_meinung
   text: "Beschreibe das, was Du am Liebsten machen würdest?"
 
-- sub: miteinander
+- sub: 7_2_miteinander
   text: "Wie fandst Du das Miteinander?"
-- sub: miteinander
+- sub: 7_2_miteinander
   text: "Was könnte besser laufen?"
-- sub: miteinander
+- sub: 7_2_miteinander
   text: "Wie wurden Deine Meinung, Deine Gefühle und Beobachtungen ernst genommen?"
-- sub: miteinander
+- sub: 7_2_miteinander
   text: "WER könnte WAS anders machen, um das Miteinander zu verbessern?"
-- sub: miteinander
+- sub: 7_2_miteinander
   text: "Was könntest Du anders machen?"
 
-- sub: ausblick
+- sub: 7_2_ausblick
   text: "Was würdest Du in einem nächsten Tanzprojekt anders machen wollen?"
-- sub: ausblick
+- sub: 7_2_ausblick
   text: "Was könnten die anderen Deiner Meinung nach anders machen?"

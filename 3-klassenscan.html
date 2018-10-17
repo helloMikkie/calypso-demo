@@ -79,7 +79,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
               Was genau interessiert dich daran? Warum?</p>
         </div>
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "lernverhalten"  }}
+            {{ site.fragen | where:"thema" , "3_lernverhalten"  }}
           </div>
     </article>
   </section>
@@ -87,11 +87,11 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class=" mv5">
       <article class="sectionTitle">
-        <h1 class="mv0 pt2 euclid-m f-xl tracked">Lernverhalten</h1>
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Sozialverhalten</h1>
       </article>
       <article class="w-100 pa3">
           <div class="wrapper">
-            {{ site.fragen | where:"thema" , "lernverhalten"  }}
+            {{ site.fragen | where:"thema" , "3_sozialverhalten"  }}
           </div>
       </article>
     </section>
@@ -100,58 +100,42 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
         <article class="sectionTitle odd">
-          <h1 class="mv0 pt2  euclid-m f-xl tracked">Sozialverhalten</h1>
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Motorik</h1>
         </article>
 
         <article class="sectionBack pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "sozialverhalten"  }}
+                {{ site.fragen | where:"thema" , "3_motorik"  }}
               </div>
         </article>
       </section>
 
       <section class=" mv5" >
           <article class="sectionTitle">
-            <h1 class="mv0 pt2  euclid-m f-xl tracked">Motorik</h1>
+            <h1 class="mv0 pt2  euclid-m f-xl tracked">Energie/Motivation</h1>
           </article>
           <article class="w-100 pa3">
               <div class="wrapper">
-                {{ site.fragen | where:"thema" , "motorik"  }}
+                {{ site.fragen | where:"thema" , "3_energie"  }}
               </div>
           </article>
         </section>
 
-        <section class=" mv5" >
+    <!-- Diese Section ist mit Avatar-Tipp -->
+
+        <section class=" mv5" data-tipp="{{ page.tipp-zwei }}" >
             <article class="sectionTitle odd  ">
-              <h1 class="mv0 pt2 euclid-m f-xl tracked">Energie/Motivation</h1>
+              <h1 class="mv0 pt2 euclid-m f-xl tracked">Wesen/Inspiration</h1>
             </article>
 
             <article class="sectionBack pa3">
                   <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "energie"  }}
+                    {{ site.fragen | where:"thema" , "3_wesen"  }}
                   </div>
             </article>
           </section>
 
-          <!-- Diese Section ist mit Avatar-Tipp -->
 
-          <section class=" mv5" data-tipp="{{ page.tipp-zwei }}">
-              <article class="sectionTitle">
-                <h1 class="mv0 pt2 euclid-m f-xl tracked">Wesen/Inspiration</h1>
-              </article>
-
-                <div class="description ph3 lh-copy ls-small euclid-r">
-                  <p>	Transparente Kommunikation und gegenseitiges Wohlwollen
-                    sind wichtige Gelingensfaktoren für Kooperation</p>
-                  </div>
-              <article class="w-100 pa3">
-                  <div class="wrapper">
-                    {{ site.fragen | where:"thema" , "wesen"  }}
-                  </div>
-              </article>
-            </section>
-
-              </section>
 
 <!-- neue Frage -->
             <section class="mv5" id="scrollTo-acht">
