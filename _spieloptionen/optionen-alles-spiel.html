@@ -6,120 +6,129 @@ color: "#A0B354"
 <section class="tabContainer mw8 center euclid-m">
 <!-- Tab links -->
   <div class="tabbar ">
-    <button class="tablinks white active euclid-m" onclick="showBar(event,'paarweise')" style="background-color: {{page.color}}">paarweise</button>
-    <button class="tablinks white euclid-m" onclick="showBar(event,'gruppenweise')" style="background-color: {{page.color}}">gruppenweise</button>
+    <button class="tablinks white active euclid-m" onclick="showBar(event,'themenfindung')" style="background-color: {{page.color}}">Themenfindung</button>
+    <button class="tablinks white euclid-m" onclick="showBar(event,'bewegungsspiele')" style="background-color: {{page.color}}">Bewegungsspiele</button>
   </div>
 
-<div class="subTab " id="paarweise" style="background-color: {{page.color}}">
-  <button class="tablinks active euclid-m pa3 white" onclick="openTab(event,'einer-faengt-an')" style="background-color: {{page.color}}">einer fängt an</button>
+<div class="subTab " id="themenfindung" style="background-color: {{page.color}}">
   <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'plaedoyer')" style="background-color: {{page.color}}">Plädoyer</button>
-  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'talkshow')" style="background-color: {{page.color}}">Talkshow</button>
-  <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'warmup')" style="background-color: {{page.color}}">WarmUp</button>
+  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'themenkarussel')" style="background-color: {{page.color}}">Themen-Karussel</button>
+  <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'duett')" style="background-color: {{page.color}}">Duett</button>
+  <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'stopptanz')" style="background-color: {{page.color}}">Stopp-Tanz</button>
 </div>
-<div class="subTab" id="gruppenweise" style="display: none;background-color: {{page.color}} ">
-  <button class="tablinks white euclid-m" onclick="openTab(event,'stopptanz')" style="background-color: {{page.color}}">Stopp Tanz</button>
-  <button class="tablinks white euclid-m" onclick="openTab(event,'landkarte')" style="background-color: {{page.color}}">Themen Landkarte</button>
+<div class="subTab" id="bewegungsspiele" style="display: none;background-color: {{page.color}} ">
+  <button class="tablinks white euclid-m" onclick="openTab(event,'interview')" style="background-color: {{page.color}}">Interview</button>
+  <button class="tablinks white euclid-m" onclick="openTab(event,'landkarte')" style="background-color: {{page.color}}">Themen-Landkarte</button>
+  <button class="tablinks white euclid-m" onclick="openTab(event,'dufaengstan')" style="background-color: {{page.color}}">Du fängst an</button>
 </div>
 
 <!-- Tab content -->
 
-<!-- paarweise -->
-<div id="einer-faengt-an" class="tabcontent pa4">
-  <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
-  </div>
-  <div class=" w-60 dib ph5">
-    <h3 class="euclid-m f-xxl mt0 mb4">Einer fängt an</h3>
-    <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
-    </ul>
+<!-- Themenfindung -->
 
-  </div>
-</div>
 
-<div id="plaedoyer" class="tabcontent pa4" style="display: none; ">
+<div id="plaedoyer" class="tabcontent pa4">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
   <div class=" w-60 dib ph5">
     <h3 class="euclid-m f-xxl mt0 mb4">Plädoyer</h3>
     <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
+      <li class="mv3 lh-copy euclid-m">paarweise/Gruppe</li>
+      <li class="mv3 lh-copy euclid-r">Jede/r hält ein Plädoyer für sein/ ihr gefundenes Thema und versucht, die anderen davon zu überzeugen. </li>
     </ul>
 
   </div>
 </div>
 
-<div id="talkshow" class="tabcontent pa4" style="display: none; ">
+<div id="themenkarussel" class="tabcontent pa4" style="display: none; ">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
   <div class=" w-60 dib ph5">
-    <h3 class="euclid-m f-xxl mt0 mb4">Talkshow</h3>
+    <h3 class="euclid-m f-xxl mt0 mb4">Themen-Karussel</h3>
     <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
+      <li class="mv3 lh-copy euclid-m">paarweise</li>
+      <li class="mv3 lh-copy euclid-r">Paare bekommen die 4 Karten einer der drei Hauptkategorien.</li>
+      <li class="mv3 lh-copy euclid-r">Sie haben 5 Minuten, in denen sie sich auf einen gemeinsamen Begriff einigen und dazu ein Thema formulieren.</li>
+      <li class="mv3 lh-copy euclid-r">In den nächsten 5 Minuten erfinden sie Bewegungen für dieses Thema. </li>
+      <li class="mv3 lh-copy euclid-r">Es gibt 3 Runden mit drei unterschiedlichen Partner*innen.</li>
     </ul>
 
   </div>
 </div>
 
-<div id="warmup" class="tabcontent pa4" style="display: none; ">
+<div id="duett" class="tabcontent pa4" style="display: none; ">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
   <div class=" w-60 dib ph5">
-    <h3 class="euclid-m f-xxl mt0 mb4">Warm Up</h3>
+    <h3 class="euclid-m f-xxl mt0 mb4">Duett</h3>
     <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
+      <li class="mv3 lh-copy euclid-m">paarweise</li>
+      <li class="mv3 lh-copy euclid-r">Jede*r zieht eine beliebige Karte aus dem Kartenset, entscheidet sich für einen Begriff (z.b. Fantasie-Person) und wählt ein Thema aus (z.B. Hobbit).</li>
+      <li class="mv3 lh-copy euclid-r">In Paaren einigen sie sich entweder auf ein Thema oder verbinden beide Themen für die Gestaltung eines Duetts.</li>
     </ul>
   </div>
 </div>
-
-<!-- grupoenweise -->
 
 <div id="stopptanz" class="tabcontent pa4" style="display: none; ">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
   <div class=" w-60 dib ph5">
-    <h3 class="euclid-m f-xxl mt0 mb4">Stopp Tanz</h3>
+    <h3 class="euclid-m f-xxl mt0 mb4">Stopp-Tanz</h3>
     <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
+      <li class="mv3 lh-copy euclid-m">paarweise/Gruppe</li>
+      <li class="mv3 lh-copy euclid-r">Aus den 4 Karten einer der drei Hauptkategorien sucht sich jede*r einen Begriff aus – für sich und ohne ihn zu kommunizieren. </li>
+      <li class="mv3 lh-copy euclid-r">Danach laufen alle zu Musik durch den Raum.</li>
+      <li class="mv3 lh-copy euclid-r">Wenn die Musik aufhört, finden sich zwei: Eine*r tanzt den Begriff und die/der andere versucht diesen zu erraten.</li>
     </ul>
   </div>
 </div>
-<div id="landkarte" class="tabcontent pa4" style="display: none; ">
+
+<!-- Bewegungsspiele -->
+
+<div id="interview" class="tabcontent pa4" style="display: none; ">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/talkshow.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
   <div class=" w-60 dib ph5">
-    <h3 class="euclid-m f-xxl mt0 mb4">Themen Landkarte</h3>
+    <h3 class="euclid-m f-xxl mt0 mb4">Interview</h3>
     <ul class="list pl0">
-      <li class="mv3 lh-copy euclid-r">Ein Schüler*in ist der Reporter, einer Interview Partner. </li>
-      <li class="mv3 lh-copy euclid-r">Der Reporter wählt eine Hauptkategorie und eine Unterkategorie aus und formuliert eine Frage zu einem der Begriffe.</li>
-      <li class="mv3 lh-copy euclid-r">Der Interview Partner antwortet darauf wie in einer Talkshow. Möglichst klar und kompakt oder auch witzig und frech…</li>
-      <li class="mv3 lh-copy euclid-r">Dann Rollentausch. </li>
-      <li class="mv3 lh-copy euclid-r">Zum Abschluss können die beiden ihre Ergebnisse präsentieren.</li>
+      <li class="mv3 lh-copy euclid-m">paarweise</li>
+      <li class="mv3 lh-copy euclid-r">Ein*e Schüler*in ist Reporter*in, wählt eine beliebige Karte aus dem Kartenset und befragt die/den Partner*in zu einem der Begriffe.</li>
+      <li class="mv3 lh-copy euclid-r"> Nach einem Rollentausch präsentiert das Paar die besprochenen Themen und Ergebnisse.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="landkarte" class="tabcontent pa4" style="display: none; ">
+  <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div>
+  <div class=" w-60 dib ph5">
+    <h3 class="euclid-m f-xxl mt0 mb4">Themen-Landkarte</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-m">Gruppe</li>
+      <li class="mv3 lh-copy euclid-r">Alle erhalten die vier Karten einer der 3 Hauptkategorien (z.B. ICH) und leere Karten und Stifte.</li>
+      <li class="mv3 lh-copy euclid-r">Jede*r wählt einen Begriff (z.B. MEINE INTERESSEN), findet ihre/ seine persönliche Assoziation zu dem Begriff und schreibt sie auf eine leere Karte.</li>
+      <li class="mv3 lh-copy euclid-r">Diese Karten werden auf ein großes Blatt Papier an die Wand geklebt und können nun in Themengruppen zusammengefasst werden.</li>
+      <li class="mv3 lh-copy euclid-r">Über gemeinsamen Austausch entstehen Themen für den Unterricht oder für ein Stück.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="dufaengstan" class="tabcontent pa4" style="display: none; ">
+  <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div>
+  <div class=" w-60 dib ph5">
+    <h3 class="euclid-m f-xxl mt0 mb4">Du fängst an</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-m">paarweise/Gruppe</li>
+      <li class="mv3 lh-copy euclid-r">Jemand schlägt ein Thema vor und löst damit so lange eine Assoziationskette bei den Mitspielenden aus.</li>
+      <li class="mv3 lh-copy euclid-r">Solange bis ein gemeinsames Thema gefunden worden ist.</li>
     </ul>
   </div>
 </div>
