@@ -110,99 +110,99 @@
   back:
   flip: 0
 
-- sub: epochen
+- sub: musik
   front: Mittelalter
   back: "Ballade, Rondeau, Virelai"
   flip: 0
-- sub: epochen
+- sub: musik
   front: Renaissance
   back: "Madrigal, Motetten"
   flip: 0
-- sub: epochen
+- sub: musik
   front: Barock
   back: "Oper, Fuge, Oratorium, Kantate, Suite (Ouvertueren-, Tanzsuite)"
   flip: 0
-- sub: epochen
+- sub: musik
   front: Klassik
   back: "Oper, Sinfonie, Sonate, Solokonzert, Streichquartett"
   flip: 0
-- sub: epochen
+- sub: musik
   front: Romantik
   back: "Poetisches kleines Klavierstueck, sinfonische Dichtung, Kunstlied, Musikdrama, Ballett, Operette"
   flip: 0
-- sub: epochen
+- sub: musik
   front: "Moderne, Impressionismus"
   back: "Prelude, Arabesque, Nocturne"
   flip: 0
-- sub: epochen
+- sub: musik
   front: Neue Musik
   back: "Klassische und experimentelle Formen, atonale Musik"
   flip: 0
 
-- sub: formen
+- sub: musik
   front: Blues
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Folk
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Lateinamerikanische Musik
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Reggae
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Traditionelle Musik
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Country
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Funk
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Metall
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Rock
   back:
-- sub: formen
+- sub: musik
   front: Disco
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Hip Hop
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: "Rock’n’Roll"
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Pop
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Elektronische Musik
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Jazz
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Punk
   back:
   flip: 0
-- sub: formen
+- sub: musik
   front: Ska
   back:
   flip: 0

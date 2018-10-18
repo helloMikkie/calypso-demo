@@ -39,11 +39,9 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
     <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Darstellende Kunst</a></li>
     <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Bildende Kunst</a></li>
-    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Musikalische Epochen</a></li>
-    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Musikalische Formen</a></li>
-    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Epik</a></li>
-    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Lyrik</a></li>
-    <li><a href="#scrollTo-acht" class="subnavTab pb3 color-4 no-underline f-s">Dramatik</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Musik</a></li>
+    <li><a href="#scrollTo-fuenf" class="subnavTab pb3 color-4 no-underline f-s">Literatur</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Komposition</a></li>
   </ul>
 </article>
 
@@ -67,7 +65,8 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
 
 
-<!-- Körper -->
+<!-- Darstellende Kunst -->
+
   <section class="mv5" id="scrollTo-zwei">
 
       <article class=" sectionTitle odd pa3">
@@ -77,7 +76,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       <article class="sectionBack pa3 mb3">
         <div class="  pa3 flex items-center justify-center">
           <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Theater</h2>
-          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'theater')"></button>
       </div>
 
         <div class="content center" >
@@ -102,6 +101,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   </section>
 
 <!-- Bildende Kunst -->
+
   <section class="mv5" id="scrollTo-drei">
 
     <article class=" sectionTitle pa3">
@@ -109,7 +109,10 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     </article>
 
     <article class="w-100 pa3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Malerei</h2>
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Malerei</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'malerei')"></button>
+    </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "malerei" }}
       </div>
@@ -118,7 +121,6 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     <article class="w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
         <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Bildhauerei</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
     </div>
       <div class="content center">
         {{ site.themenfelder | where:"thema" , "bildhauerei" }}
@@ -128,7 +130,6 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     <article class="w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
         <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Graphik/Zeichnung</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
     </div>
       <div class="content center">
         {{ site.themenfelder | where:"thema" , "graphik" }}
@@ -137,8 +138,8 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <article class="w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
-        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Fotografie</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
+      <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Fotografie</h2>
+      <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'fotografie')"></button>
     </div>
       <div class="content center">
         {{ site.themenfelder | where:"thema" , "fotografie" }}
@@ -148,7 +149,6 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     <article class="w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
         <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Architektur</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
     </div>
       <div class="content center">
         {{ site.themenfelder | where:"thema" , "architektur" }}
@@ -158,58 +158,38 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   </section>
 
 
-<!-- Musikalische Epochen -->
+<!-- Musik -->
 
   <section class="mv5" id="scrollTo-vier">
 
     <article class=" sectionTitle odd pa3 ">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musikalische Epochen</h1>
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musik</h1>
     </article>
 
     <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <h2 class=" tc f-xl" style="color:{{page.text-color}}">XXX</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'reichweite')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'musik')"></button>
       </div>
       <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "epochen" }}
+        {{ site.themenfelder | where:"thema" , "musik" }}
       </div>
     </article>
 
   </section>
 
-<!-- Musikalische Formen -->
+
+
+<!-- Literatur -->
 
   <section class="mv5" id="scrollTo-fuenf">
 
-    <article class="sectionTitle pa3">
-      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musikalische Formen</h1>
-    </article>
-
-    <article class=" w-100 pa3 ">
-      <div class="pa3 flex items-center justify-center">
-        <h2 class=" tc f-xl" style="color:{{page.text-color}}">XXX</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
-      </div>
-      <div class="content center ">
-        {{ site.themenfelder | where:"thema" , "formen" }}
-      </div>
-    </article>
-
-  </section>
-
-<!-- Epik -->
-
-  <section class="mv5" id="scrollTo-sechs">
-
-    <article class="sectionTitle odd pa3 ">
+    <article class="sectionTitle pa3 ">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Literatur</h1>
-
     </article>
 
-    <article class="sectionBack pa3 mb3">
+    <article class="w-100 pa3">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'literatur')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "literatur" }}
@@ -219,6 +199,33 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   </section>
 
 
+<!--  -->
+
+  <!-- Komposition  -->
+    <article class="mv5" id="scrollTo-sechs">
+
+      <article class=" pa3 mw7 center bg-white ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Komposition</h1>
+    </article>
+
+
+    <article class="center bg-white pv4 ">
+
+      <div class="description ph3 pb4 lh-copy ls-small euclid-r">
+        <p>	Wenn Du Begriffe aus verschiedenen Kategorien miteinander verbindest entsteht Komposition. Dabei kannst Du Schwerpunkte setzen,
+          indem Du eine Kategorie stärker berücksichtigst als eine andere. Du kannst außerdem Begriffe aus unterschiedlichen Fokusfeldern miteinander
+          in Beziehung setzen. Deinem Spiel sind hierbei keine Grenzen gesetzt. </p><p>Nutze die Karten um selbst Choreografien für die Schüler*innen
+          zu entwickeln oder Kompositionsaufgaben für die Schüler*innen zu formulieren. </p>
+          <p>Außerdem kannst Du die Schüler*innen eigene Begriffe wählen und eigenständig choreografieren lassen.</p>
+      </div>
+      {{ site.spieloptionen | where:"title", "komposition"}}
+    </article>
+  </article>
+
+
+
+
+
   <!-- scrollTop Button -->
               <div class="scrolltoTop" style="background-color:{{page.color}};" >
                     <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
@@ -226,15 +233,14 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <!-- Modal "Aufgabe" -->
 
-  {{ site.modals | where:"thema" , "Körperteile" }}
-  {{ site.modals | where:"thema" , "Formqualitäten" }}
-  {{ site.modals | where:"thema" , "Antrieb" }}
-  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
-  {{ site.modals | where:"thema" , "Beziehung" }}
-  {{ site.modals | where:"thema" , "Reichweite" }}
+  {{ site.modals | where:"thema" , "Theater" }}
+  {{ site.modals | where:"thema" , "Malerei" }}
+  {{ site.modals | where:"thema" , "Fotografie" }}
+  {{ site.modals | where:"thema" , "Musik" }}
+  {{ site.modals | where:"thema" , "Literatur" }}
 
 
-
+    <script src="js/tabbar.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/subnav.js"></script>
     <script src="js/subnav_taglist.js"></script>

@@ -74,18 +74,18 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       </article>
 
       <article class="sectionBack pa3 mb3">
-        <div class="  pa3 flex items-center justify-center">
-          <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Gruppenformation</h2>
-          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
-      </div>
 
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Gruppenformation</h2>
         <div class="content center" >
           {{ site.themenfelder | where:"thema" , "gruppenformation" }}
         </div>
       </article>
 
         <article class="sectionBack pa3 mb3">
-          <h2 class="tc f-xl" style="color:{{page.text-color}}">Räumlich/Zeitlicher Bezug</h2>
+          <div class=" pa3 flex items-center justify-center">
+            <h2 class="tc f-xl" style="color:{{page.text-color}}">Räumlich/Zeitlicher Bezug</h2>
+            <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'bezug')"></button>
+        </div>
           <div class="content center ">
             {{ site.themenfelder | where:"thema" , "bezug" }}
           </div>
@@ -115,17 +115,17 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     </article>
 
     <article class="w-100 pa3">
-      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Rhythmisierung</h2>
+      <div class="  pa3 flex items-center justify-center">
+        <h2 class="tc f-xl" style="color:{{page.text-color}}">Rhythmisierung</h2>
+        <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'rhythmisierung')"></button>
+    </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "rhythmisierung" }}
       </div>
     </article>
 
     <article class="w-100 pa3 ">
-      <div class="pa3 flex items-center justify-center">
-        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Bearbeitung</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
-    </div>
+        <h2 class="tc f-xl" style="color:{{page.text-color}}">Bearbeitung</h2>
       <div class="content center">
         {{ site.themenfelder | where:"thema" , "bearbeitung" }}
       </div>
@@ -138,35 +138,29 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class="mv5" id="scrollTo-vier">
 
-    <article class="sectionTitle pa3">
+    <article class="sectionTitle odd pa3">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Raum</h1>
     </article>
 
-    <article class=" w-100 pa3 ">
-      <div class="pa3 flex items-center justify-center">
+    <article class=" sectionBack pa3 mb3 ">
         <h2 class=" tc f-xl" style="color:{{page.text-color}}">Formationen</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
-      </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "formationen" }}
       </div>
     </article>
 
-    <article class=" w-100 pa3 ">
+    <article class="sectionBack pa3 mb3 ">
       <div class="pa3 flex items-center justify-center">
         <h2 class=" tc f-xl" style="color:{{page.text-color}}">Wege</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'wege')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "wege" }}
       </div>
     </article>
 
-    <article class=" w-100 pa3 ">
-      <div class="pa3 flex items-center justify-center">
+    <article class="sectionBack pa3 mb3  ">
         <h2 class=" tc f-xl" style="color:{{page.text-color}}">Position</h2>
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
-      </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "position" }}
       </div>
@@ -178,14 +172,13 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class="mv5" id="scrollTo-fuenf">
 
-    <article class="sectionTitle odd pa3 ">
+    <article class="sectionTitle pa3 ">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musik</h1>
-
     </article>
 
-    <article class="sectionBack pa3 mb3">
+    <article class="w-100 pa3">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'musik')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "musik" }}
@@ -200,12 +193,11 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
       <article class="sectionTitle odd pa3 ">
         <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Ausdruck</h1>
-
       </article>
 
       <article class="sectionBack pa3 mb3">
         <div class="pa3 flex items-center justify-center">
-          <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+          <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'ausdruck')"></button>
         </div>
         <div class="content center ">
           {{ site.themenfelder | where:"thema" , "ausdruck" }}
@@ -230,12 +222,12 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <!-- Modal "Aufgabe" -->
 
-  {{ site.modals | where:"thema" , "Körperteile" }}
-  {{ site.modals | where:"thema" , "Formqualitäten" }}
-  {{ site.modals | where:"thema" , "Antrieb" }}
-  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
-  {{ site.modals | where:"thema" , "Beziehung" }}
-  {{ site.modals | where:"thema" , "Reichweite" }}
+  {{ site.modals | where:"thema" , "Bezug" }}
+  {{ site.modals | where:"thema" , "Rhythmisierung" }}
+  {{ site.modals | where:"thema" , "Wege" }}
+  {{ site.modals | where:"thema" , "Musik" }}
+  {{ site.modals | where:"thema" , "Ausdruck" }}
+
 
 
 

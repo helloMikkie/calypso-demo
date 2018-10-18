@@ -71,7 +71,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       <article class="sectionBack pa3 mb3">
         <div class="  pa3 flex items-center justify-center">
           <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Selbst</h2>
-          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'selbst')"></button>
       </div>
 
         <div class="content center" >
@@ -80,14 +80,20 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
       </article>
 
         <article class="sectionBack pa3 mb3">
-          <h2 class="tc f-xl" style="color:{{page.text-color}}">Dein Gegenüber</h2>
+          <div class="  pa3 flex items-center justify-center">
+            <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Dein Gegenüber</h2>
+            <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'gegenueber')"></button>
+        </div>
           <div class="content center ">
             {{ site.themenfelder | where:"thema" , "gegenueber" }}
           </div>
         </article>
 
         <article class="sectionBack pa3 mb3">
-          <h2 class="tc f-xl" style="color:{{page.text-color}}">Gesellschaft</h2>
+          <div class="  pa3 flex items-center justify-center">
+            <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Gesellschaft</h2>
+            <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'gesellschaft')"></button>
+        </div>
           <div class="content center ">
             {{ site.themenfelder | where:"thema" , "gesellschaft" }}
           </div>
@@ -104,12 +110,10 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <!-- Modal "Aufgabe" -->
 
-  {{ site.modals | where:"thema" , "Körperteile" }}
-  {{ site.modals | where:"thema" , "Formqualitäten" }}
-  {{ site.modals | where:"thema" , "Antrieb" }}
-  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
-  {{ site.modals | where:"thema" , "Beziehung" }}
-  {{ site.modals | where:"thema" , "Reichweite" }}
+  {{ site.modals | where:"thema" , "Selbst" }}
+  {{ site.modals | where:"thema" , "Gegenüber" }}
+  {{ site.modals | where:"thema" , "Gesellschaft" }}
+
 
 
 

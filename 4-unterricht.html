@@ -74,7 +74,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
       <article class="sectionBack pa3 mb3">
         <div class="  pa3 flex items-center justify-center">
-          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'mint')"></button>
       </div>
 
         <div class="content center" >
@@ -92,6 +92,9 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     </article>
 
     <article class="w-100 pa3">
+      <div class="  pa3 flex items-center justify-center">
+        <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'sprachen')"></button>
+    </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "sprachen" }}
       </div>
@@ -104,13 +107,13 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class="mv5" id="scrollTo-vier">
 
-    <article class="sectionTitle pa3">
+    <article class="sectionTitle odd pa3">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musische Fächer</h1>
     </article>
 
-    <article class=" w-100 pa3 ">
+    <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'musisch')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "musische" }}
@@ -123,14 +126,14 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <section class="mv5" id="scrollTo-fuenf">
 
-    <article class="sectionTitle odd pa3 ">
+    <article class="sectionTitle pa3 ">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Gesellschaftskunde</h1>
 
     </article>
 
-    <article class="sectionBack pa3 mb3">
+    <article class="w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'gesellschaftskunde')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "gesellschaftskunde" }}
@@ -148,9 +151,9 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
       </article>
 
-      <article class="sectionBack pa3 mb3">
+      <article class="sectionBack pa3 mb3 ">
         <div class="pa3 flex items-center justify-center">
-          <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+          <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'sachkunde')"></button>
         </div>
         <div class="content center ">
           {{ site.themenfelder | where:"thema" , "sachkunde" }}
@@ -168,12 +171,11 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <!-- Modal "Aufgabe" -->
 
-  {{ site.modals | where:"thema" , "Körperteile" }}
-  {{ site.modals | where:"thema" , "Formqualitäten" }}
-  {{ site.modals | where:"thema" , "Antrieb" }}
-  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
-  {{ site.modals | where:"thema" , "Beziehung" }}
-  {{ site.modals | where:"thema" , "Reichweite" }}
+  {{ site.modals | where:"thema" , "Mint" }}
+  {{ site.modals | where:"thema" , "Sprachen" }}
+  {{ site.modals | where:"thema" , "Musisch" }}
+  {{ site.modals | where:"thema" , "Gesellschaftskunde" }}
+  {{ site.modals | where:"thema" , "Sachkunde" }}
 
 
 

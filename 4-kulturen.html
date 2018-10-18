@@ -6,7 +6,7 @@ color: "#f89700"
 text-color: "#ee8f01"
 ziel-title: thematisieren
 intro: "Im Fokusfeld Körper und Bewegung achten die Schüler*innen besonders auf ihren <span class='ch-4'>Körper</span>  und darauf, was beim zeitgenössischen Tanzen mit ihm passiert. <br /> Hierbei stehen Wahrnehmen, Explorieren, Empfinden, Erleben und Üben im Mittelpunkt: Die Schüler*innen erfahren durch die bewusste Wahrnehmung des eigenen und auch der anderen Körper die Beziehung zwischen sich selbst und der Welt. Deshalb wird großer Wert auf die Durchlässigkeit von Empfindungen der Tanzenden gelegt. Durch Improvisation entwickeln die jungen Menschen eine persönliche Bewegungssprache. <br /> Angelehnt an die Bewegungsanalyse von Rudolf von Laban lassen sich die unterschiedlichen Aspekte (z.B. Körper, <span class='ch-4'>Form,</span> <span class='ch-4'>Raum,</span> <span class='ch-4'>Phrasierung,</span> <span class='ch-4'>Beziehung,</span>) einzeln anwenden oder miteinander kombinieren, um den eigenen Körper und unterschiedliche <span class='ch-4'>Bewegungs-</span>qualitäten besser kennenzulernen und um sich ausdrücken zu können. Durch die Einbeziehung verschiedener Techniken (z.B. Kontaktimprovisation), Martial Arts und somatischer Praktiken (z.B. Feldenkrais) fördert zeitgenössischer Tanz nicht nur das Körpergefühl junger Menschen, sondern unterstützt sie in ihrer gesamten Selbstwahrnehmung und ihrem Selbstausdruck - ganz ohne den sonst im Sport üblichen Wettbewerbsgedanken."
-hero: images/hero/4-hero-gesellschaft.png
+hero: images/hero/4-hero-tanzkulturen.png
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 ---
@@ -75,7 +75,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
       <article class="sectionBack pa3 mb3">
         <div class="  pa3 flex items-center justify-center">
-          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'traditionell')"></button>
       </div>
 
         <div class="content center" >
@@ -93,6 +93,9 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
     </article>
 
     <article class="w-100 pa3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'gesellschaftstaenze')"></button>
+    </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "gesellschaftstaenze" }}
       </div>
@@ -111,7 +114,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'reichweite')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'urban')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "urban" }}
@@ -130,7 +133,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <article class=" w-100 pa3 ">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'buehnentaenze')"></button>
       </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "buehnentaenze" }}
@@ -150,7 +153,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <article class="sectionBack pa3 mb3">
       <div class="pa3 flex items-center justify-center">
-        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'beziehung')"></button>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'rituell')"></button>
       </div>
 
       <div class="content center ">
@@ -171,7 +174,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
     <article class="w-100 pa3 ">
           <div class="pa3 flex items-center justify-center">
-            <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'antrieb')"></button>
+            <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungskulturen')"></button>
           </div>
       <div class="content center ">
         {{ site.themenfelder | where:"thema" , "bewegungskulturen" }}
@@ -186,12 +189,12 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 
   <!-- Modal "Aufgabe" -->
 
-  {{ site.modals | where:"thema" , "Körperteile" }}
-  {{ site.modals | where:"thema" , "Formqualitäten" }}
-  {{ site.modals | where:"thema" , "Antrieb" }}
-  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
-  {{ site.modals | where:"thema" , "Beziehung" }}
-  {{ site.modals | where:"thema" , "Reichweite" }}
+  {{ site.modals | where:"thema" , "Traditionell" }}
+  {{ site.modals | where:"thema" , "Gesellschaftstänze" }}
+  {{ site.modals | where:"thema" , "Urban" }}
+  {{ site.modals | where:"thema" , "Bühnentänze" }}
+  {{ site.modals | where:"thema" , "Rituell" }}
+  {{ site.modals | where:"thema" , "Bewegungskulturen" }}
 
 
 

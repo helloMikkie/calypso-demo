@@ -4,31 +4,23 @@ color: "#FC754B"
 ---
 
 <section class="tabContainer mw8 center euclid-m">
-<!-- Tab links -->
-  <!-- <div class="tabbar ">
-    <button class="tablinks white active euclid-m" onclick="showBar(event,'paarweise')" style="background-color: {{page.color}}">paarweise</button>
-    <button class="tablinks white euclid-m" onclick="showBar(event,'gruppenweise')" style="background-color: {{page.color}}">gruppenweise</button>
-  </div> -->
 
 <div class="subTab " id="paarweise" style="background-color: {{page.color}}">
   <button class="tablinks active euclid-m pa3 white" onclick="openTab(event,'stimmungsbarometer')" style="background-color: {{page.color}}">Stimmungsbarometer</button>
   <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'bewegte-antwort')" style="background-color: {{page.color}}">Bewegte Antwort</button>
   <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'daumenblitzlicht')" style="background-color: {{page.color}}">Daumenblitzlicht</button>
-  <!-- <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'warmup')" style="background-color: {{page.color}}">WarmUp</button> -->
 </div>
-<!-- <div class="subTab" id="gruppenweise" style="display: none;background-color: {{page.color}} ">
-  <button class="tablinks white euclid-m" onclick="openTab(event,'eins')" style="background-color: {{page.color}}">eins</button>
-  <button class="tablinks white euclid-m" onclick="openTab(event,'zwei')" style="background-color: {{page.color}}">zwei</button>
-</div> -->
+
 
 <!-- Tab content -->
 
-<!-- paarweise -->
+
+<!--  -->
 <div id="stimmungsbarometer" class="tabcontent pa4">
   <div class=" w5 mr4 dib v-top h-100">
-    <img src="../images/spieloptionen/stimmungsbarometer.png" alt="talkshow">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
   </div>
-  <div class=" w-60 dib ph5">
+  <div class=" w-60 dib ph5 v-top">
     <h3 class="euclid-m f-xxl mt0 mb4">Stimmungsbarometer</h3>
     <ul class="list pl0">
       <li class="mv3 lh-copy euclid-r">Alle Schüler*innen stehen in einer Reihe nebeneinander.  </li>
@@ -47,15 +39,46 @@ color: "#FC754B"
   </div>
 </div>
 
-<div id="bewegte-antwort" class="tabcontent" style="display: none; ">
-  <h3>Plädoyer</h3>
-  <p>Paris is the capital of France.</p>
+<!--  -->
+
+<div id="bewegte-antwort" class="tabcontent pa4" style="display: none;">
+  <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div>
+  <div class=" w-60 dib ph5 v-top" style="overflow: scroll">
+    <h3 class="euclid-m f-xxl mt0 mb4">Bewegte Antwort</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-r">Du formulierst eine Aussage und eine Aktion, die die Schüler*innen ausführen sollen. Sie reagieren darauf mit der entsprechenden Bewegung.</li>
+      <li class="mv3 lh-copy euclid-r">Hier einige Beispiele, nach deren Muster du beliebig viele Aussagen zu verschiedenen Inhalten formulieren kannst:
+
+        <li class="lh-copy euclid-m pl4 mv2">„Wem es heute leichtgefallen ist, eigene Bewegungen zu erfinden, geht durch den Raum. Die anderen bleiben stehen“</li>
+        <li class="lh-copy euclid-m pl4 mv2">„Wer heute am liebsten mit seiner*m Partner*in oder in seiner Arbeitsgruppe getanzt hat, macht kleine Sprünge auf dem Platz. Die anderen machen eine Kniebeuge.“</li>
+        <li class="lh-copy euclid-m pl4 mv2">„Wer sich auf die nächste Tanzstunde freut, rennt im Uhrzeigersinn im Kreis. Die anderen stehen auf dem rechten Bein.“</li>
+
+      </li>
+    </ul>
+
+  </div>
 </div>
 
-<div id="daumenblitzlicht" class="tabcontent" style="display: none; ">
-  <h3>Talkshow</h3>
-  <p>Tokyo is the capital of Japan.</p>
+
+<!--  -->
+<div id="daumenblitzlicht" class="tabcontent pa4" style="display: none;">
+  <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div>
+  <div class=" w-60 dib ph5 v-top" style="overflow: scroll">
+    <h3 class="euclid-m f-xxl mt0 mb4">Daumenblitzlicht</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-r">Du formulierst eine Aussage.</li>
+      <li class="mv3 lh-copy euclid-r">Die Schüler*innen reagieren, indem sie mit dem Daumen hoch (top), mittel (so mittel) oder runter (flop) zeigen.</li>
+      <li class="mv3 lh-copy euclid-r">Dabei sollen sie sich nicht gegenseitig beeinflussen. Deshalb können sie die Augen schließen oder du gibst ein Zeichen, auf das sie alle gleichzeitig reagieren.</li>
+      <li class="mv3 lh-copy euclid-r">Du kannst zum Beispiel fragen, ob ihnen die Musik gefallen hat und ob sie Spaß beim Tanzen hatten.</li>
+    </ul>
+
+  </div>
 </div>
+
 
 
 
