@@ -39,7 +39,7 @@ function openTab(evt, name){
 
 const circleTags = document.querySelectorAll(".circle")
 const titleTag = document.querySelector('.feedback-title h3')
-const arr = ["innehalten", 'wewrtfreie Impulse geben', "Feedback moderieren"]
+const arr = ["innehalten", 'wertfreie Impulse geben', "Feedback moderieren"]
 let i = 0
 
 

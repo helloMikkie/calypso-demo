@@ -1,13 +1,22 @@
 .info{
-  width: 80vw;
-  height: 50vh;
+  width:60vw;
+  height: 60vh;
   background-color: rgba(255,255,255,0.85);
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
+  border: 3px solid #FC754B;
+  border-radius: 4px;
 }
 
+
+.info ul li{
+  border-bottom: 1px solid #FC754B;
+}
+.info ul li:last-child{
+  border-bottom: none;
+}
 
 .feedback-diagram{
   height: 356px;
