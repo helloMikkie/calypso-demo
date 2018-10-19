@@ -1,88 +1,70 @@
 ---
 layout: page_home
 title: Calypso
-color: "#B73866"
+color: "#fff"
 intro: "…die Körper machen sichtbar, was jede, jeder von uns bereits weiß, aber nicht in Worte fassen kann. Umso mehr dringt das Verborgene, Sprachlose in jede einzelne Pore ein, um sich dort allmählich zu entfalten und gegen die Sprachlosigkeit aufzustehen"
 ---
 
 
-<!-- Ziel-Nummer header footer -->
+  <h1 class="start-title euclid-m mv0" style="color: #000 ">{{ page.title}}</h1>
 
-  <div class="whiteHeader">
-    <h1 class="hiddenTitle euclid-m f-xl" style="color:{{ page.color }}">{{page.title}}</h1>
+  <div class="circle-container">
+
+
+
+
+
+      <svg width="1073px" height="800px" viewBox="0 0 1073 800" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+  fill-rule="evenodd">
+              <g id="Desktop" transform="translate(-60.000000, -46.000000)"
+  fill-rule="nonzero">
+
+
+  <path d="M636.5,151 C833.1875,151 886.5,314.023438
+  886.5,428.484375 C886.5,542.945312 793.933594,658.5 632.25,658.5
+  C470.566406,658.5 378,546.75 378,404.75 C378,262.75 495.613281,151 633.5,151"
+  id="path-circle" stroke=none></path>
+<!--
+  <path d="M60,208.5 C70.5,208.5 446,-11.25 507.5,62 C569,135.25
+  325,413 264,372.5 C223.333333,345.5 459,291.927163 971,211.781489 L807,348.5
+  L914,372.5 L537.5,755" id="path1" stroke="#151515" transform="translate(300, 300)"></path>
+
+  <path d="M302,718.5 C302,706 21,470 67,400 C113,330 316,654.5
+  214.5,700 C113,745.5 124,305.5 231,305.5 C302.333333,305.5 335.666667,374.333333
+  331,512" id="path4" stroke="#151515"></path>
+
+  <path d="M798,107 C887,131.5 864,441.5 698,427 C532,412.5
+  941.5,255.5 1011,311.5 C1057.33333,348.833333 1031.5,433.5 933.5,565.5
+  L1054,565.5 L887,662 L1026.5,662 L902,703.5 L981,703.5" id="path3"
+  stroke="#151515"></path>
+
+  <path d="M1089.5,62 C1127,94.6666667 1139.5,129.166667
+  1127,165.5 C1108.25,220 1018.5,73 985,113.75 C951.5,154.5 1079.1875,205.5
+  1058.34375,237.5 C1037.5,269.5 587.5,139.000708 611,95 C634.5,50.9992916
+  747,166.5 714.5,202 C682,237.5 418,326 477,400 C536,474 670,416 670,473.5
+  C670,511.833333 589.166667,579.166667 427.5,675.5" id="path2"
+  stroke="#151515"></path> -->
+
+
+  <circle id="ballBlue" fill="none" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#58B0E2" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#4CC8B2" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#A0B354" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#F89700" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#FC754B" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#C27AC8" r="8" opacity="0" stroke= none>></circle>
+  <circle id="ballBlue" fill="#8B71D6" r="8" opacity="0" stroke= none>></circle>
+              </g>
+          </g>
+      </svg>
+
   </div>
 
-  <div class="whiteFooter"></div>
 
 
-<!-- Video Hero  Overlay-->
 
-  <div class="hero-ziel">
-
-      <div id="video_container">
-    <img src="images/hero/home-3.jpg" alt="home-3">
-
-
-      </div>
-</div>
-
-
-<!-- content  -->
-
-<!--  title section -->
-
-  <section class="section-wrapper appear" id="eins">
-
-      <div class="section-container">
-        <h1 class="hero-title euclid-m mv0">{{ page.title}}</h1>
-      </div>
-
-      <a href="#zwei" class="scrollIkon"></a>
-  </section>
-
-<!-- quote section -->
-
-  <section class="section-wrapper " style="color: {{ page.color }};" id="zwei">
-
-    <div class="section-container appear">
-      <div>
-          <p class="hero-text euclid-m f-xxl mv0" >
-            “Was siehst Du? Was denkst Du dazu? Was machst Du damit?”
-          </p>
-          <p class="white tc "></p>
-    </div>
-</div>
-
-    <a href="#drei" class="scrollIkon"></a>
-
-  </section>
-
-<!-- Intro section  -->
-
-<section class="section-wrapper white f-xxl euclid-m " id="drei">
-    <div class="section-container">
-          <div class="ph5">
-            <p class="intro-text">{{ page.intro }}</p>
-        </div>
-  </div>
-
-  <a href="#vier" class="scrollIkon"></a>
-</section>
-
-
-<div class="footer" style="background-color: {{ page.color}}">
-    <a href="#">Tanzzeit</a>
-    <a href="#">Kulturprojekte</a>
-    <a href="#">Impressum</a>
-    <a href="#">Datenschutz</a>
-    <a href="#">nach oben</a>
-</div>
-
-
-<script src="js/anime.js"></script>
-<script src="js/ziel_Animation.js"></script>
-
-<script src="js/ziel_scroller.js"></script>
-
-<script src="js/video.js"></script>
-<script src="js/animation.js"></script>
+  <!--  js -->
+  <script src="js/anime.js"></script>
+<script src="js/start-animation.js"></script>
