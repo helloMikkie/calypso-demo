@@ -7,6 +7,8 @@ ziel-title: kennenlernen
 intro: "Jedes Thema lässt sich tanzen. In diesem Spiel teilen alle Mitspielenden - also Schüler*innen, Tanzvermittler*innen und Lehrer*innen – mit, was sie
 thematisch interessiert. Dazu wählen sie einen Begriff aus dem Kartenset, überlegen sich assoziativ Fragen dazu und tauschen sich mit den Mitspielenden darüber aus.
 Lassen sich diese Themen auch in Bewegung umsetzen? Das Spiel hilft dabei, Themen für das Projekt zu finden, die später in eine Choreografie Eingang finden."
+hinweis: "Die Mitspielenden können sich mündlich über die Themen austauschen oder die Karten in „Themenlandkarten“ zusammenbringen. Was davon lässt sich in Bewegung umsetzen?
+In den Spieloptionen findest du hierzu mögliche Ideen. Paarweise oder in Gruppen können alle Kombinationen aus Schüler*innen, Tanzvermittler*innen und Lehrer*innen mitspielen."
 hero: images/hero/3-hero-allesisttanz.png
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
@@ -24,12 +26,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 <!-- Hinweis -->
   <article class="hinweis">
     <div class="hinweisContent">
-      <p>Du kannst zuerst ein Thema durch Assoziationen eingrenzen und finden.
-        Die Themen können verbal ausgetauscht oder auf Themenlandkarten gesammelt werden.
-        Was davon lässt sich in Bewegung umsetzen?
-        Die Spieloptionen geben Dir dazu mögliche Ideen.
-        Zu zweit oder in Gruppen können alle Kombinationen aus Lehrer*innen,
-        Tanzvermittler*innen und Schüler*innen mitspielen.</p>
+      <p>{{page.hinweis}}</p>
       <ul>
         <li>Dauer:</li>
         <li>Material:</li>
@@ -43,8 +40,8 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
   <ul>
       <li><a href="#scrollTo-eins" class="subnavTab pb3 color-3 no-underline f-s">Intro</a></li>
       <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-3 no-underline f-s">Spielablauf</a></li>
-      <li><a href="#scrollTo-drei" class="subnavTab pb3 color-3 no-underline f-s" >Spiel drucken</a></li>
-      <li><a href="#scrollTo-vier" class="subnavTab pb3 color-3 no-underline f-s" >Spieloptionen</a></li>
+      <li><a href="#scrollTo-drei" class="subnavTab pb3 color-3 no-underline f-s" >Spieloptionen</a></li>
+      <li><a href="#scrollTo-vier" class="subnavTab pb3 color-3 no-underline f-s" >Spiel drucken</a></li>
   </ul>
 </article>
 
@@ -115,26 +112,26 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 </section >
 
 
-  <!-- Spiel drucken -->
-  
-  <section class=" mv5" id="scrollTo-drei">
-      <div class="wrapper">
-        {{ site.drucken | where:"thema" , "Alles-Spiel"  }}
-    </div>
-  </section>
-
 
   <!-- Spieloptionen  -->
-    <article class="mv5" id="scrollTo-vier">
+    <article class="mv5" id="scrollTo-drei">
 
       <article class=" pa3 mw7 center bg-white ">
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Spieloptionen</h1>
     </article>
 
-    <article class="center bg-white pv4 ">
+    <article class="center bg-white pt4 pb6 ">
       {{ site.spieloptionen | where:"title", "alles-spiel-optionen"}}
     </article>
   </article>
+
+  <!-- Spiel drucken -->
+
+  <section class=" mv5" id="scrollTo-vier">
+      <div class="wrapper">
+        {{ site.drucken | where:"thema" , "Alles-Spiel"  }}
+    </div>
+  </section>
 
   <!-- Modal "Aufgabe" -->
 

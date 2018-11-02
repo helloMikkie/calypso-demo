@@ -9,6 +9,8 @@ intro: "Beim Planungstreffen begegnen sich Tanzvermittler*in und Lehrer*in oft z
 Denn eure gute Zusammenarbeit trägt entscheidend zum Gelingen des Projekts bei. Dabei geht es sowohl darum, dass ihr euch gegenseitig kennenlernt und euch über eure Erwartungen austauscht,
 als auch um organisatorische Aspekte. Meist moderieren die Tanzvermittler*innen dieses Gespräch.<br>
 Die besprochenen Inhalte des Planungstreffens dienen später als Grundlage für das <span class='link ch-1'>Reflexionstreffen</span> in der Mitte und das Abschlusstreffen am Ende des Projekts."
+hinweis: "Das Planungstreffen dauert ungefähr 60 Minuten. Die Fragen des Leitfadens kannst du beliebig anordnen, einzelne weglassen oder auch eigene hinzufügen.
+Am besten beginnst du mit dem, was dich am meisten anspricht. Im Gespräch beantwortet ihr euch die Fragen gegenseitig und notiert die Antworten stichpunktartig."
 hero: images/hero/1-hero-planungstreffen.png
 tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
@@ -24,7 +26,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
 <!-- Hinweis -->
   <article class="hinweis">
     <div class="hinweisContent">
-      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <p>{{page.hinweis}}</p>
       <ul>
         <li>Dauer:</li>
         <li>Material:</li>
@@ -143,10 +145,7 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
                 <h1 class="mv0 pt2 euclid-m f-xl tracked">Kooperation</h1>
               </article>
 
-                <div class="description ph3 lh-copy ls-small euclid-r">
-                  <p>	Transparente Kommunikation und gegenseitiges Wohlwollen
-                    sind wichtige Gelingensfaktoren für Kooperation</p>
-                  </div>
+
               <article class="w-100 pa3">
                   <div class="wrapper">
                     {{ site.fragen | where:"thema" , "1_2_kooperation"  }}
@@ -158,8 +157,11 @@ tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
                 <article class="sectionTitle odd ">
                   <h1 class="mv0 pt2 euclid-m f-xl tracked">Reflexion</h1>
                 </article>
-                <article class="sectionBack pa3">
 
+                <article class="sectionBack pa3">
+                  <div class="description ph3 lh-copy ls-small euclid-r">
+                    <p>	Legt bereits einen Termin für das Reflexionstreffen fest. Plant außerdem kurze Gespräche zwischendurch ein, zum Beispiel als kleines Ritual jeweils fünf Minuten nach dem Unterricht.</p>
+                    </div>
                       <div class="wrapper">
                         {{ site.fragen | where:"thema" , "1_2_reflexion"  }}
                       </div>
