@@ -1,16 +1,9 @@
 ---
 title: gaming-sub
 ---
-
-# Gaming
-
-#### Dauer: 45 Minuten
-
 ### Ziel
 
 Über die Videospielkultur wird ein Zugang zum zeitgenössischen Tanz geschaffen.
-
-
 
 ### Kontext
 

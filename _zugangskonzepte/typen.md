@@ -2,19 +2,13 @@
 title: typen-sub
 ---
 
-# Tanztypen
-
-#### Dauer: 45 Minuten
-
 ### Ziel
 
 Innere Bilder zum Thema Tanz werden körperlich sichtbar gemacht und gemeinsam reflektiert. Die Unterschiede der Vorstellungswelten entsprechen der Vielfalt des zeitgenössischen Tanzes.
 
-
 ### Kontext
 
 Jugendliche haben eigenen Vorstellungen, was sie mit dem Thema Tanz und dem Bild einer/s Tänzerin/eines Tänzers verbinden. Diese Bilder und Vorstellungswelten sind Ausgangspunkt für eine Heranführung an den zeitgenössischen Tanz und können somit verhandelt werden.
-
 
 
 ### Fragestellungen

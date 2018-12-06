@@ -1,11 +1,6 @@
 ---
 title: sport-sub
 ---
-
-# Tanzen und Sport
-
-#### Dauer: 30-45 Minuten
-
 ### Ziel
 
 Sportliche Bewegungsabläufe sind der Ausgangspunkt, um die SchülerInnen zu motivieren.
@@ -14,7 +9,6 @@ Sportliche Bewegungsabläufe sind der Ausgangspunkt, um die SchülerInnen zu mot
 ### Kontext
 
 Teamgeist, Ausdauer, Körperbeherrschung, Konzentration und die Freude an der Dynamik von Bewegungsabläufen sind Schnittmengen von Tanz und Sport. Bewegungsabläufe aus verschiedenen sportlichen Disziplinen, wie z.b. Ballsportarten können zu einer tänzerischen Sequenz verbunden werden.
-
 
 ### Fragestellungen
 

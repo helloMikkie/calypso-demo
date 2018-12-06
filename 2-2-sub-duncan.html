@@ -1,18 +1,12 @@
 ---
 layout: page_chapter2
-title: Choreografenbuch
+title: "Choreograf*innenbuch"
 ziel-nr: 2
 ziel-title: interessieren
 color: "#4CC8B2"
-ziel: "Über die Popkultur wird ein Zugang zum zeitgenössischen Tanz geschaffen. Schüler*innen können an diesem Beispiel lernen, wie durch gegenseitige Inspiration etwas Neues entsteht."
-kontext: "Das Musik-Video von Beyoncé ist 2011 erschienen. Die Tanzschritte wurden jedoch vor 30 Jahren von Ann Teresa De Keersmaeker erfunden.
-Der offensichtliche Schwindel fliegt auf und de Keersmaeker gewinnt den Rechtsstreit um ihre Autorenschaft. Danach nutzt sie die globale Popularität von Beyonce und die digitalen Möglichkeiten,
-um ihre Choreografie einem Massenpublikum über YouTube zugänglich zu machen. Das Projekt Re:Rosas! The fABULEUS Rosas Remix entsteht: Menschen aus der ganzen Welt schicken Tanzvideos ein,
-in denen das Bewegungsmaterial von De Keersmaeker entweder präzise kopiert oder künstlerisch verhandelt wird."
-fragestellungen: "Seht ihr Unterschiede und Gemeinsamkeiten zwischen Tanzstilen? Wer hat von wem die Bewegungen kopiert?
-Findet ihr es in Ordnung, Bewegungen zu „klauen“? Seht ihr einen Unterschied zwischen imitieren, klauen und kopieren? Wenn ja, wie würdet ihr ihn beschreiben? "
-
-thumbnail: ../images/thumbnails/superhero.jpg
+person: Isodora Duncan
+dates: "*27. Mai 1877 – 14. September 1927"
+thumbnail: ../images/thumbnails/choreografen/duncan.jpg
 ---
 
 <!-- Header bar -->
@@ -20,32 +14,38 @@ thumbnail: ../images/thumbnails/superhero.jpg
   <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
 </header>
 
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
 
+<!-- Content -->
+<article class="relative center tc">
 
-<!-- hero-Material -->
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
 
-<!-- <div class="hero-material" >
-    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+    <div class="card-text pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m">{{ page.person }}</h1>
+      <h2 class="mt2 mb5 f-s euclid-m lh-copy" >{{ page.dates }}</h2>
 
-      <div class="hero-material-title">
-        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      <div class="markdown">
+         {{ site.choreografen | where:"title" , "duncan-bio" }}
       </div>
-</div> -->
 
+  <div class="choregrafenLinks" style="background-color: {{page.color}}">
+    <ul>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="https://de.wikipedia.org/wiki/Isadora_Duncan">Wikipedia Eintrag</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://www.isadoraduncanarchive.org/about/">Website zu Isodora Duncan</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://archives.nypl.org/dan/19640">Archiv zu ISodora Duncan</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://guides.lib.uw.edu/c.php?g=341803&p=2304382">Chamber Dance Company Archive</a></li>
+    </ul>
 
-<!-- Introtext -->
-  <!-- <div class="wrapper" id="scrollTo-eins">
-    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
-    <span class="mr3">{{ page.title }}</span>{{ page.intro }}
-    </article>
-  </div> -->
+   </div>
+      <button class="pv3 euclid-m f-md tracked black  ">
+        <a href="2-2-sub-waltz.html" class="white link ph3">Biografie drucken</a>
+      </button>
+    </div>
 
-<div class="wrapper markdown">
-    {{ site.choreografen | where:"title" , "duncan-bio" }}
-</div>
-
-
-
+ </article>
 
 <div class="scrolltoTop" style="background-color:{{page.color}};">
   <a href="#scrollTo-eins" class="topScroll no-underline"></a>

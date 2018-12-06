@@ -1,12 +1,6 @@
 ---
 title: abschreiben-sub
 ---
-
-# Abschreiben erlaubt?
-
-##  Ann Teresa De Keersmaeker vs. Beyoncé Knowles
-#### Dauer: 30-45 Minuten
-
 ### Ziel
 
 Über die Popkultur wird ein Zugang zum zeitgenössischen Tanz geschaffen.
@@ -20,13 +14,8 @@ Der offensichtliche Schwindel fliegt auf und de Keersmaeker gewinnt den Rechtsst
 
 ### Fragestellungen
 
-* Seht ihr Unterschiede und Gemeinsamkeiten zwischen Tanzstilen? Wer hat von wem die Bewegungen kopiert?
+* Seht ihr Unterschiede und Gemeinsamkeiten zwischen Tanzstilen?
+Wer hat von wem die Bewegungen kopiert?
 * Findet ihr es in Ordnung, Bewegungen zu „klauen“?
-* Seht ihr einen Unterschied zwischen imitieren, klauen und kopieren? Wenn ja, wie würdet ihr ihn beschreiben?
-
-### Material
-
-* [Countdown _ ab Minute 2.30 bis zum Ende]()
-* [Rosas Danst Rosas]()
-von Thierry De Mey_ 1.Teil von Minute 12:22 bis 14:50/ 2.Teil von Minute 24:43 bis 28:49
-* [The fABULEUS Rosas Remix-Projekt]()
+* Seht ihr einen Unterschied zwischen imitieren, klauen und kopieren?
+Wenn ja, wie würdet ihr ihn beschreiben?

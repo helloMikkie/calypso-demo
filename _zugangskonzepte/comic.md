@@ -2,10 +2,6 @@
 title: comic-sub
 ---
 
-# Comicfiguren und Idole
-
-#### Dauer: 30-45 Minuten
-
 ### Ziel
 
 Identifikationsfiguren aus der Lebenswelt der Kinder sind die Grundlage für die Heranführung an Arbeitsweisen des Zeitgenössischen Tanzes.

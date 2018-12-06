@@ -1,11 +1,6 @@
 ---
 title: beruf-sub
 ---
-
-# Beruf Tanz
-
-#### Dauer: 45 Minuten
-
 ### Ziel
 
 Eine persönliche Geschichte soll in den zeitgenössischen Tanz einführen, indem ein*e Tanzvermittler*in eine individuelle Erfahrung durch ihren Körper lebendig werden lässt.   

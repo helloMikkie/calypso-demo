@@ -33,7 +33,12 @@
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
+    transition: background-color 0.2s;
 
+  }
+
+  .openButton:hover{
+    background-color: #616161;
   }
 
 .openButton.close{
