@@ -1,8 +1,24 @@
+// Section Hero Animation
+
+.hero-animation{
+  position: absolute;
+	width: 80%;
+	height: 80%;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+	}
+
+  #diagram{
+  	transform-origin: center;
+  }
+
 .circle-container{
   margin:0 auto;
   width: 100%;
   height: 100vh;
   position: relative;
+  background-color: #fff;
 }
 
 .circle-container svg{
@@ -21,3 +37,164 @@
 .circle-container circle{
   mix-blend-mode: multiply;
 }
+
+// menu-diagram styles
+
+
+li{
+	list-style: none;
+	margin-left: 0;
+	transition: opacity 0.5s;
+}
+
+ul{
+	padding-left: 0;
+}
+
+/* complete */
+
+.wrapper-diagram{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: space-around;
+	background-image: url('images/start/diagram-start.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-duration: 0.7s;
+	transition-property: background-image;
+	transition-delay: 0.3s;
+  color: #fff;
+}
+
+/* left column: diagram */
+.menu-diagram{
+  display: inline-block;
+  padding: 20px;
+	width: 50%;
+	padding-top: 50%;
+	transform: translateY(-50%);
+	text-align: center;;
+}
+
+.combination{
+	/* fill-opacity: 0.2; */
+	transition: fill-opacity 1s;
+}
+
+.category{
+	border-bottom: 1px solid #fff;
+	text-transform: uppercase;
+}
+.item{
+	fill-opacity: 0.2;
+	transition: fill-opacity .5s;
+}
+
+
+.active-filter{
+	fill-opacity: 1;
+
+}
+/* right column: description */
+.description-diagram{
+	display: flex;
+	flex-direction: column;
+		width: 60%;
+
+}
+
+.chapter-intro{
+  padding-top: 60px;
+  height: 40vh;
+
+}
+.chapterTitle{
+  font-size: 4em;
+	transition: color .4s;
+	transition-duration: 0.7s;
+	transition-delay: 0.3s;
+}
+
+.chapterText{
+	opacity: 1;
+	color: white;
+  width: 80%;
+  line-height: 2;
+
+}
+/* left column: tagContainer */
+.tagContainer{
+	display: flex;
+  height: 60vh;
+  width: 100%;
+}
+.tagContainer ul{
+	margin-right: 6%;
+}
+
+ul li:first-child{
+
+  letter-spacing: 0.03em;
+  padding-bottom: 16px;
+}
+.product{
+  width: 100%;
+  margin: 1.2rem 0;
+  font-size: 22px;
+
+}
+
+// ____________________________________________________________
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-grid{
+  display: flex;
+  // height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.flex-grid .col{
+  flex: 1;
+}
+
+.flex-grid .col .row{
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 40px 0px;
+}
+
+.row-text{
+ display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 28px;
+}
+// Buttons
+.btn-ch1 { background: #58B0E2; }
+.btn-ch1:hover {background: #52A0CC; }
+.btn-ch2 { background: #4CC8B2; }
+.btn-ch2:hover {background: #44B4A0; }
+.btn-ch5 { background: #FC754B; }
+.btn-ch5:hover { background: #DF6A46; }
+.btn-ch6 { background: #C27AC8; }
+.btn-ch6:hover { background: #B16FB6; }
+.btn-weiss { background: #FFFFFF; }
+.btn-weiss:hover {background: #E7E7E7; }
+.btn-grey { background: #909090; }
+.btn-grey:hover {background: #909090; }
+
+//
+.zugangskonzepte {
+  background-image: url('images/start/bg-zugangskonzepte.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+ }
