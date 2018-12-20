@@ -94,10 +94,11 @@ const goToChapter7 = function(){
 
   }
 
-    filterTags.forEach(filter =>{
+    filterTags.forEach( filter =>{
 
 
       filter.addEventListener('click', function(){
+
 
 
         const myFilter = this.getAttribute('data-filter')
@@ -127,7 +128,7 @@ const goToChapter7 = function(){
 
 
            products.forEach(product =>{
-            
+
               if(product.classList.contains(myFilter)){
                   show(product)
 
@@ -149,12 +150,14 @@ const goToChapter7 = function(){
 
           filterTags.forEach(filter =>{
             filter.classList.remove('active-filter')
+            filter.style.animation = "pulse"
+
+
+
           })
 
           this.classList.add('active-filter')
-
-
-
+          this.style.animation = ""
 
 
 
