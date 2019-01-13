@@ -3,6 +3,10 @@ layout: page_home
 title: Calypso
 subtitle: "lässt die Schule tanzen!"
 color: "#fff"
+intro_1: "Calypso ist ein Praxistool für Lehrer*innen und Tanzvermittler*innen, die Tanzprojekte an Schulen bringen.
+Calypso stellt Materialien für den Tanzunterricht zur Verfügung und gibt Tipps für den Schulalltag.
+Calypso inspiriert dazu, auch eigene Zugänge, Vermittlungsansätze und künstlerische Arbeitsweisen zu finden."
+intro_2: "In Calypso findet ihr zahlreiche Videos, Audios und Bildergalerien. Die offene Lizenz CC-BY-SA erlaubt es euch, sämtliche Materialien unter Nennung des Urhebers uneingeschränkt zu bearbeiten und zu verbreiten."
 ---
 
 <!-- ____________________ Hero-Animation start ________________________________________
@@ -46,18 +50,23 @@ color: "#fff"
     				 </g>
     			 </svg>
 
-
-
   </div>
-
 
 
   <!-- ____________________ Intro 1  ________________________________________
 
   -->
 
-    <section class="flex w-100 ">
-      {{ site.start | where:"thema" , "einleitung" }}
+    <section class="flex w-100">
+      <div class="bg-left w-20">
+         <img src="images/start/intro-hands-left.png" class="bg-size" />
+      </div>
+      <article class=" description color-gray pv4 ph3 mv6 f-lg  lh-md euclid-m ">
+        {{ page.intro_1 }}
+      </article>
+      <div class="bg-right">
+         <img src="images/start/intro-hands-right.png" class="bg-size" />
+      </div>
     </section>
 
 
@@ -70,8 +79,30 @@ color: "#fff"
       <h1 class="mv0 pt3 euclid-m f-xxxl tracked">Wie Calypso funktioniert</h1>
     </article>
     <article class="sectionBack flex ">
-        {{ site.start | where:"thema" , "wie Calypso funtioniert" }}
+      <div class="bg-left">
+       	<img src="images/start/bg-images/circles-left.png" class="bg-size" />
+      </div>
+        <div class="description ph3 pv4 lh-copy ls-small f-md  euclid-r">
+          <p>	Kooperieren, Interessieren, Kennenlernen, Thematisieren, Reflektieren, Choreografieren, Abschließen –
+            Calypso beinhaltet diese sieben Ziele und bietet dazu Materialien an. </p>
+          <p>Die Ziele dienen als Orientierung für den zeitlichen Ablauf eines Projekts, sind aber als offene Struktur gedacht.
+            Denn künstlerische Prozesse verlaufen oft nicht linear, methodische Herangehensweisen sind unterschiedlich und die Zusammenarbeit mit den Schüler*innen erfordert situatives und individuelles Handeln.</p>
+          <p>Die Materialen in den Zielen gliedern sich in die Themen: Kooperieren, Reflektieren und Vermitteln von Inhalten.</p>
+          <p>Bei diesem Icon
+            <!--  Bild Icon einsetzen-->
+            [Burger]
+            kommt ihr direkt zu den Zielen.</p>
+            <h3>Sieben Ziele – drei Themen</h3>
+            <p>In den sieben Zielen von Calypso findet ihr Materialien - wie Spiele, Fragebögen, Gesprächsleitfäden -
+              zu den Themen Zusammenarbeiten, Nachdenken und Vermitteln.</p>
+              <p>Hier ein Überblick:</p>
+        </div>
+        <div class="bg-right">
+         	<img src="images/start/bg-images/circles-right.png" class="bg-size" />
+        </div>
+
     </article>
+
 
     <!-- ____________________ Menu Diagram  ________________________________________
 
@@ -79,7 +110,10 @@ color: "#fff"
 
   <section class="wrapper-diagram">
 
-<div class="menu-diagram">
+
+  <div class="menu-diagram">
+
+
     <svg width="463px" height="461px" viewBox="0 0 463 461">
 
       <g >
@@ -101,18 +135,18 @@ color: "#fff"
 
     </svg>
 
-</div>
+  </div>
 
 <section class="description-diagram">
 
 <article class="chapter-intro">
-  <h1 class=" ">Sieben Ziele – drei Themen </h1>
-  <p class="chapterText euclid-m f-md">In den sieben Zielen von Calypso findet ihr Materialien - wie Spiele,
-    Fragebögen, Gesprächsleitfäden - zu den Themen Zusammenarbeiten, Nachdenken und Vermitteln.</p>
+  <h1 class="chapterTitle ">Sieben Ziele – drei Themen </h1>
+  <p class="chapterText euclid-m f-md ">Entdecke den Zusammenhang der drei Themen: zusammenarbeiten, nachdenken und vermitteln
+  in der Übersicht der Calypso-Ziele. Wenn du auf die Ziel-Buttons klickst, kannst du sehen, wie sich die einzelnen Materialien zu den drei Themen beziehen. </p>
 
 </article>
 
-<article class="tagContainer euclid-m ">
+<article class="tagContainer euclid-m f-lg">
   <ul>
     <li class="product category kooperieren reflektieren abschliessen">zusammenarbeiten</li>
 
@@ -148,11 +182,17 @@ color: "#fff"
 </section>  <!-- wrappper -->
 
 
-<!-- ____________________ Intro 2  ________________________________________
+<!-- ____________________ Introtext 2  ________________________________________
 
 -->
-<section class="flex w-100 ">
-  {{ site.start | where:"thema" , "einleitung_2" }}
+<section>
+  <div class="wrapper">
+
+    <article class="intro color-gray pa2  mv6 f-xl lh-md euclid-m">
+    {{ page.intro_2 }}
+    </article>
+
+  </div>
 </section>
 
 <!-- ____________________ Was Calypso alles bietet  ________________________________________
@@ -160,22 +200,41 @@ color: "#fff"
 -->
 
 
-
+<section class="">
     <article class="sectionTitle odd">
       <h1 class="mv0 pt3 euclid-m f-xxxl tracked">Was Calypso alles bietet</h1>
     </article>
 
     <article class="sectionBack flex">
-      {{ site.start | where:"thema" , "was calypso alles bietet fokusfelder" }}
-    </article>
 
+      <div class="bg-left">
+         <img src="images/start/bg-cards-left.png" class="bg-size" />
+      </div>
+
+        <div class="description ph3 lh-copy f-lg ls-small euclid-r">
+          <h2 class="euclid-m tc f-xxxl">Fokusfelder</h2>
+          <p>	Um mögliche Inhalte für den zeitgenössischen Tanz an Schulen greifbar zu machen, stellt Calypso sechs Fokusfelder vor.
+</p>
+          <p>Jedes Fokusfeld konzentriert sich auf einen Blickwinkel, aus dem ein gewähltes Thema betrachtet wird.
+            Mit den Materialien und methodischen Vorschlägen lassen sich aus den auch miteinander kombinierbaren Fokusfeldern
+            eine Vielzahl von Aufgaben für den Unterricht gestalten.</p>
+        </div>
+
+        <div class="bg-right">
+           <img src="images/start/bg-cards-right.png" class="bg-size" />
+        </div>
+
+    </article>
+  </section>
 
   <!-- ____________________ Fokusfelder  ________________________________________
 
   -->
-  <section class="w-100 center bg-white pb6">
+  <section class="w-100 center bg-white pa3">
 
-    <div class="flex-grid ">
+
+
+<div class="flex-grid ">
 
 
 	<!-- LEFT  -->
@@ -241,29 +300,42 @@ color: "#fff"
   -->
 
       <article class="sectionBack pa3 flex">
-          {{ site.start | where:"thema" , "was calypso alles bietet leitfaden" }}
+        <div class="bg-left">
+           <img src="images/start/bg-leitfaden-left.png" style="width: 50%;" />
+        </div>
+
+          <div class="description ph3 f-lg lh-copy ls-small euclid-r">
+            <h2 class="euclid-m tc f-xxl">Leitfäden und Fragebögen</h2>
+            <p>	Fragebögen und Gesprächsleitfäden begleiten den gesamten Prozess eines Projekts.
+              Die Fragen und Anregungen schärfen die Wahrnehmung für das eigene Handeln und Empfinden und geben einen Rahmen für konstruktives Feedback.</p>
+            <P>Hier einige Beispiele:</P>
+          </div>
+          <div class="bg-right">
+             <img src="images/start/bg-leitfaden-right.png" class="" style="width: 50%;"/>
+          </div>
+
       </article>
 
   <section class="w-100 center bg-white pa3 pb5">
 
     <div class="flex-grid">
-      <div class="col pa4" >
+      <div class="col test pa4" >
     		<h4 class=" color-1 euclid-m f-xxl">Planungstreffen</h4>
-    		<img src="images/start/tafel1-300-400.png" class="imgFade  " />
-    		<p class="pv2 lh-copy mb4 ">Dieser Gesprächsleitfaden hilft Tanzvermittler*innen und Lehrer*innen das erste Treffen zu gestalten.</p>
-    		<button class="button ml4 btn-col btn-ch1 pv3 ph4 euclid-m md tracked">zum Planungstreffen</button>
+    		<img src="images/start/tafel1-300-400.png" class="imgFade tc " />
+    		<p class="pv2 ph4 lh-copy tc ">Am Anfang eines jeden Projekts ist es sinnvoll, Erwartungen und Ziele abzustecken sowie auch organisatorische Fragen zu klären. Dieser Gesprächsleitfaden hilft Tanzvermittler*innen und Lehrer*innen das erste Treffen zu gestalten.</p>
+    		<button class="button btn-ch1 pv3 ph4 euclid-m md tracked">zum Planungstreffen</button>
     	</div>
-      <div class="col  pa4">
+      <div class="col test pa4">
     		<h4 class=" color-5 euclid-m f-xxl">Reflexionstreffen</h4>
-    		<img src="images/start/tafel2-300-400.png" class="imgFade " />
-    		<p class="pv2 lh-copy ">Mit diesem Gesprächsleitfaden tauschen sich Tanzvermittler*in und Lehrer*in in der Mitte des Projekts über den bisherigen Verlauf aus.</p>
-    		<button class="button ml4 btn-col btn-ch5 pv3 ph4 euclid-m md tracked">zum Reflexionstreffen</button>
+    		<img src="images/start/tafel2-300-400.png" class="imgFade tc" />
+    		<p class="pv2 ph4 lh-copy tc">Mit diesem Gesprächsleitfaden tauschen sich Tanzvermittler*in und Lehrer*in in der Mitte des Projekts über den bisherigen Verlauf aus.</p>
+    		<button class="button btn-ch5 pv3 ph4 euclid-m md tracked">zum Reflexionstreffen</button>
     	</div>
-      <div class="col pa4 ">
+      <div class="col test pa4">
     		<h4 class=" color-7 euclid-m f-xxl">Abschlusstreffen</h4>
-    		<img src="images/start/tafel3-300-400.png" class="imgFade " />
-    		<p class="pv2 lh-copy ">Schüler*innen, Tanzvermittler*innen und Lehrer*innen bekommen mit diesem Fragebogen die Möglichkeit, ein abschließendes Fazit zum Projekt zu ziehen.</p>
-    		<button class=" ml4 button btn-col btn-ch7 pv3 ph4 euclid-m md tracked">zum Abschlusstreffen</button>
+    		<img src="images/start/tafel3-300-400.png" class="imgFade tc" />
+    		<p class="pv2 ph4 lh-copy tc">Schüler*innen, Tanzvermittler*innen und Lehrer*innen bekommen mit diesem Fragebogen die Möglichkeit, ein abschließendes Fazit zum Projekt zu ziehen.</p>
+    		<button class="button btn-ch7 pv3 ph4 euclid-m md tracked">zum Abschlusstreffen</button>
     	</div>
     </div>
 </section>
@@ -273,33 +345,47 @@ color: "#fff"
 -->
 
 
-<article class=" pa3 flex">
-    {{ site.start | where:"thema" , "was calypso alles bietet kartenspiele" }}
-</article>
+    <article class=" pa3">
+        <div class="description ph3 f-lg lh-copy ls-small euclid-r">
+          <h2 class="euclid-m tc f-xxl">Kartenspiele</h2>
+          <p>	Die Calypso-Kartensets dienen der gemeinsamen Themenfindung für das Tanzprojekt und
+            zeigen Spieloptionen, wie sich Themen tänzerisch umsetzen lassen.</p>
+          <p>Sie eignen sich für das gegenseitige Kennenlernen, machen die Schritte auf dem Weg des
+            Choreografierens transparent und beziehen alle Beteiligten in den Entstehungsprozess ein.</p>
+        </div>
+    </article>
 
 
-<section class="ph3 pb6">
+<section class="ph3 pv6">
 
       <div class="flex-grid" id="spiele">
 
-        	<div class="col test relative ph3">
-        				<h2 class="euclid-m f-xxl color-3 tc">Alles ist Tanz</h2>
-        				<img src="images/start/img-alles-spiel.png" />
-        				<p class="pt3 lh-copy w-70">In diesem Spiel wählen alle Mitspielenden einen Begriff aus dem Kartenset, der sie thematisch interessiert, und überlegen sich assoziativ Fragen dazu. Anschließend tauschen sie sich mit den anderen darüber aus.</p>
-        	</div>
+    	<div class="col test relative ph3">
 
-        	<div class="col test relative ph3">
-        				<h2 class="euclid-m tc f-xxl color-6">Reisekarten</h2>
-        				<img src="images/start/img-reisekarten.png" />
-        				<p class="pt3 lh-copy w-70">Die choreografischen Reisekarten begleiten euch und die Klasse auf dem Weg zu eurer gemeinsamen Choreografie. Alle Beteiligten wirken von der ersten Idee bis zur Aufführung aktiv und gestaltend mit.</p>
-        	</div>
-    </div>
+    				<h2 class="euclid-m f-xxl color-3 tc">Alles ist Tanz</h2>
+    				<img src="images/start/img-alles-spiel.png" />
+    				<p class="pt3 lh-copy w-70">In diesem Spiel wählen alle Mitspielenden einen Begriff aus dem Kartenset, der sie thematisch interessiert, und überlegen sich assoziativ Fragen dazu. Anschließend tauschen sie sich mit den anderen darüber aus.</p>
+
+            <!-- <div class="card-ikon">
+              <img src="images/start/card-green.png" alt="card-green">
+            </div> -->
+    	</div>
+
+    	<div class="col test relative ph3">
+
+    				<h2 class="euclid-m tc f-xxl color-6">Reisekarten</h2>
+    				<img src="images/start/img-reisekarten.png" />
+    				<p class="pt3 lh-copy w-70">Die choreografischen Reisekarten begleiten euch und die Klasse auf dem Weg zu eurer gemeinsamen Choreografie. Alle Beteiligten wirken von der ersten Idee bis zur Aufführung aktiv und gestaltend mit.</p>
+
+           <!-- <div class="card-ikon">
+              <img src="images/start/card-purple.png" alt="card-green">
+            </div> -->
+    	</div>
+
+  </div>
 
 </section>
 
-<!-- ____________________ Was Calypso sonst noch bietet  ________________________________________
-
--->
 
 <section class="">
     <article class="sectionTitle odd">
@@ -358,20 +444,18 @@ color: "#fff"
   	</div>
   </section>
 
-    <!-- ____________________ Services   ________________________________________
+    <!-- ____________________ Services  ________________________________________
 
     -->
     <section class="mv5">
-
-      {{ site.start | where:"thema" , "services" }}
-        <!-- <article class=" pa3">
+        <article class=" pa3">
             <div class="description ph3 f-lg lh-copy ls-small euclid-r">
               <h2 class="euclid-m tc f-xxl">Service</h2>
               <p class="">	Hier findet ihr alles für den schnellen Zugriff auf die Materialien und Tipps,
                 außerdem eine umfangreiche Musiksammlung..</p>
             </div>
 
-      </article> -->
+      </article>
     </section>
 
 

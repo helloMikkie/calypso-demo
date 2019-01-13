@@ -57,7 +57,7 @@ ul{
 	display: flex;
 	width: 100%;
 	height: 100vh;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-image: url('images/start/diagram-start.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -67,15 +67,7 @@ ul{
   color: #fff;
 }
 
-/* left column: diagram */
-.menu-diagram{
-  display: inline-block;
-  padding: 20px;
-	width: 50%;
-	padding-top: 50%;
-	transform: translateY(-50%);
-	text-align: center;;
-}
+
 
 .combination{
 	/* fill-opacity: 0.2; */
@@ -113,17 +105,29 @@ ul{
 	fill-opacity: 1;
 
 }
+
+.menu-diagram{
+  display: flex;
+  align-items: flex-end;
+  margin:auto;
+  width: 40%;
+  padding: 20px;
+}
+svg{
+  width: 100%;
+}
 /* right column: description */
 .description-diagram{
 	display: flex;
 	flex-direction: column;
-		width: 60%;
-
 }
-
+.description-start{
+  margin: 0 auto;
+  max-width: 60%;
+}
 .chapter-intro{
   padding-top: 60px;
-  height: 40vh;
+  // height: 40vh;
 
 }
 .chapterTitle{
@@ -143,7 +147,7 @@ ul{
 /* left column: tagContainer */
 .tagContainer{
 	display: flex;
-  height: 60vh;
+  // height: 60vh;
   width: 100%;
 }
 .tagContainer ul{
@@ -158,7 +162,7 @@ ul li:first-child{
 .product{
   width: 100%;
   margin: 1.2rem 0;
-  font-size: 22px;
+  font-size: 18px;
 
 }
 
@@ -174,13 +178,14 @@ ul li:first-child{
 
 .flex-grid{
   display: flex;
-  // height: 50vh;
   width: 80%;
   margin: 0 auto;
 }
 
 .flex-grid .col{
   flex: 1;
+  align-items: stretch;
+  position: relative;
 }
 
 .flex-grid .col .row{
@@ -193,15 +198,13 @@ ul li:first-child{
  display: flex;
 flex-direction: column;
 justify-content: center;
-font-size: 28px;
 }
 
 
-.test{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.btn-col{
+  position: absolute;
+  bottom: 0;
+  left:0;
 }
 
 .card-ikon{
@@ -250,13 +253,13 @@ font-size: 28px;
  justify-content: flex-end;
  align-items: flex-end;
 }
+
 .bg-size{
-  width: 70%;
+  width:90%;
 }
 .bg-size-large{
-  width: 150%;
+  width: 100%;
 }
-
 
 .zugangskonzepte {
   background-image: url('images/start/bg-zugangskonzepte.png');

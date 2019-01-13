@@ -28,6 +28,9 @@ css: inline
 # Build settings
 markdown: kramdown
 
+
+incremental: true
+
 sass:
   style: compressed
 
@@ -71,7 +74,10 @@ collections:
   texts:
     style:
       output: true
-      
+  start:
+    style:
+      output: true
+
 defaults:
 -
     scope:
